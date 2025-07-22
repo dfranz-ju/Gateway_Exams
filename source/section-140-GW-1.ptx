@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-140-GW-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 1
+		  </title>
+		  
+		  <xi:include href="./GW-140-Instructions.xml" />
+		  
+		  
+		  <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(x) = x^4 + 2x^2 + \dfrac{5}{3\sqrt{x}}</m>
+					  </p>
+			  	
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(x) \amp = \frac{d}{dx} \left(x^4+2x^2+\frac{5}{3}x^{-1/2}\right)
+							  </mrow>
+							  <mrow>
+								  \amp = 4x^3 + 4x - \frac{5}{6} x^{-3/2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>g(x) = \dfrac{3x-\cos(x)}{x+1}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  g'(x) \amp = \frac{(x+1)\cdot\frac{d}{dx}\left(3x-\cos(x)\right) - \frac{d}{dx}\left(x+1\right) \cdot (3x-\cos(x)) }{(x+1)^2}
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{(x+1)\cdot(3+\sin(x)) - (3x-\cos(x))}{(x+1)^2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>r(x) = \ln(x^4+2)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  r'(x) \amp = \frac{1}{x^4+2} \cdot \frac{d}{dx}\left(x^4+2\right)
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{4x^3}{x^4+2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>y = \arctan(3t^2+1)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \frac{dy}{dt} \amp = \frac{1}{1+(3t^2+1)^2}\cdot \frac{d}{dt}\left(3t^2+1\right)
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{6t}{1+(3t^2+1)^2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(t) = \dfrac{e^{\sin(t)}}{\ln(t)}</m>
+					  </p>
+			  	
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(t) \amp = \frac{e^{\sin(t)} \cdot \frac{d}{dt} \left(\ln(t)\right) - \frac{d}{dt} \left(e^{\sin(t)}\right) \cdot \ln(t)}{(\ln(t))^2}
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{e^{\sin(t)} \cdot \frac{1}{t} - e^{\sin(t)} \cos(t) \ln(t)}{(\ln(t))^2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>g(x) = (x^4-4x)^{12}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  g'(x) \amp = 12(x^4-4x)^{11} \cdot \frac{d}{dx}\left(x^4-4x\right)
+							  </mrow>
+							  <mrow>
+								  \amp = 12(x^4-4x)^{11} \cdot (4x^3-4)
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>h(t) = e^t \cos(2t)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  h'(t) \amp = e^t \cdot \frac{d}{dt}\left(\cos(2t)\right) + \cos(2t) \cdot \frac{d}{dt}\left(e^t\right)
+							  </mrow>
+							  <mrow>
+								  \amp = (e^t)(-\sin(2t)\cdot 2) + \cos(2t)e^{t}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>h(x) = \dfrac{1}{1+3x^2}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Rewrite and use the chain rule.
+						  <md>
+							  <mrow>
+								  h'(x) \amp = \frac{d}{dx}\left((1+3x^2)^{-1}\right)
+							  </mrow>
+							  <mrow>
+								  \amp = -(1+x^2)^{-2} \cdot \frac{d}{dx}\left(1+3x^2\right)
+							  </mrow>
+							  <mrow>
+								  \amp = -(1+3x^2)^{-2}\cdot 6x
+							  </mrow>
+						  </md>
+					  </p>
+					  
+					  
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

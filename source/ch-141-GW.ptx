@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Math 141</title>
+
+  <introduction>
+    <p> Practice Gateway Exams for Math 141 </p>
+  </introduction>
+
+  <!-- include sections -->
+   
+ <xi:include href="section-141-GW-1.ptx"/> 
+
+ <xi:include href="section-141-GW-2.ptx"/> 
+
+ <xi:include href="section-141-GW-3.ptx"/> 
+
+ <xi:include href="section-141-GW-4.ptx"/> 
+
+ <xi:include href="section-141-GW-5.ptx"/> 
+
+ <xi:include href="section-141-GW-6.ptx"/> 
+
+ <xi:include href="section-141-GW-7.ptx"/> 
+
+ <xi:include href="section-141-GW-8.ptx"/> 
+  
+
+</chapter>

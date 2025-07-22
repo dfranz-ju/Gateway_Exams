@@ -8,8 +8,8 @@
     <title>JU Math Practice Gateway Exams</title>
     <!--<subtitle>An example to get you started</subtitle>-->
 
-    <!-- Include frontmatter -->
-   <xi:include href="./frontmatter.ptx" /> 
+    <!-- Include frontmatter 
+   <xi:include href="./frontmatter.ptx" /> -->
 
     <!-- Include chapters -->
     <xi:include href="./ch-140-GW.ptx" />

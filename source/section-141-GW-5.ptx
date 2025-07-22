@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-141-GW-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 5
+		  </title>
+		  
+		  <xi:include href="./GW-141-Instructions.ptx" />
+		  
+		  
+		   <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \frac{(\ln(x))^3}{x} \, dx </m>
+					  </p>
+
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u= \ln(x)</m> and <m>du = \dfrac{1}{x} \, dx</m>:
+						  <md>
+							  <mrow>
+								  \int \frac{(\ln(x))^3}{x} \, dx \amp = \int u^3 \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{u^4}{4} + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{(\ln(x))^4}{4} + C 
+							  </mrow>
+						  </md>
+					  </p>
+				  
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int t^2e^t \, dt </m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use integration by parts with 
+						  <md>
+							  <mrow>
+								  u \amp = t^2 \amp dv \amp = e^{t} \, dt
+							  </mrow>
+							  <mrow>
+								  du \amp = 2t \, dt  \amp v \amp = e^{t}
+							  </mrow>
+						  </md>
+						  Then
+						  <md>
+							  <mrow>
+								  \int t^2e^{t} \, dt \amp = t^2\cdot e^{t} - \int e^{t} \cdot 2t \, dt
+							  </mrow>
+							  <mrow>
+								  \amp =t^2 e^{t} - \int 2te^{t} \, dt
+							  </mrow>
+						  </md>
+						  We  now use integration by parts again on the new integral.
+						  <md>
+							  <mrow>
+								  u \amp = 2t \amp dv \amp = e^{t} \, dt
+							  </mrow>
+							  <mrow>
+								  du \amp = 2\, dt \amp v \amp =  e^{t}
+							  </mrow>
+						  </md>
+						  So
+						  <md>
+							  <mrow>
+							  	\int t^2e^{t} \, dt \amp = t^2 e^{t} - \left( 2t e^{t} - \int  2e^{t} \, dt\right)
+							  </mrow>
+							  <mrow>
+								  \amp = t^2 e^{t} - 2te^{t} +2e^{t} + C
+							  </mrow>
+						  </md>
+					  </p>
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \frac{x^2+x}{x^2} \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \int \frac{x^2+x}{x^2} \, dx \amp = \int (1 + x^{-1}) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = x + \ln|x| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \frac{3}{(x+2)(x+3)} \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  First decompose the integrand into partial fractions:
+						  <me>
+							  \frac{3}{(x+2)(x+3)} = \frac{A}{x+2} + \frac{B}{x+3}
+						  </me>
+						  This yields
+						  <me>
+							  3 = A(x+3) + B(x+2)
+						  </me>.
+						  Plug in <m>x=-2</m> to solve for <m>A</m> and <m>x=-3</m> to solve for <m>B</m>:
+						  <me>3 = A + 0 \implies A=3</me>
+						  <me>3 = 0 - B \implies B=-3</me>
+						  Now perform the integration:
+						  <md>
+							  <mrow>
+								  \int \frac{3}{(x+2)(x+3)} \amp = \int\left(\frac{3}{x+2} - \frac{3}{x+3}\right) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = 3\ln|x+2| - 3 \ln | x+3| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \sin^3(\theta)\cos(\theta) \, d\theta </m>
+					  </p>
+
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u= \sin(\theta)</m> and <m>du = \cos(\theta) \, d\theta</m>:
+						  <md>
+							  <mrow>
+								  \int \sin^3(\theta)\cos(\theta) \, d\theta \amp = \int u^3 \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{u^4}{4} + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{\sin^4(\theta)}{4} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int x\sin(4x) \, dx </m>
+					  </p>
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use integration by parts with 
+						  <md>
+							  <mrow>
+								  u \amp = x \amp dv \amp = \sin(4x) \, dx
+							  </mrow>
+							  <mrow>
+								  du \amp = 1 \, dx  \amp v \amp = -\frac{1}{4}\cos(4x)
+							  </mrow>
+						  </md>
+						  Then
+						  <md>
+							  <mrow>
+								  \int x\sin(4x) \, dx \amp = x\cdot -\frac{1}{4}\cos(4x) - \int - \frac{1}{4} \cos(4x) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = -\frac{1}{4}x\cos(4x) + \frac{1}{4} \int \cos(4x) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = -\frac{1}{4}x\cos(4x) + \frac{1}{4} \cdot \frac{1}{4}\sin(4x) + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \frac{x}{\sqrt{16+x^2}} \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u= 16+x^2</m> and <m>du = 2x \, dx</m>, so <m>\dfrac{1}{2} \, du = x \, dx</m>:
+						  <md>
+							  <mrow>
+								  \int \frac{x}{\sqrt{16+x^2}} \, dx \amp = \int \frac{1}{2} \cdot \frac{1}{\sqrt{u}} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2} \int u^{-1/2} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2} \cdot \frac{u^{1/2}}{1/2} + C
+							  </mrow>
+							  <mrow>
+								  \amp = \sqrt{16+x^2} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \frac{e^z}{e^z-7} \, dz </m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=e^z-7</m> and <m>du = e^z \, dz</m>:
+						  <md>
+							  <mrow>
+								  \int \frac{e^z}{e^z-7} \, dz \amp = \int \frac{1}{u} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \ln|u| + C
+							  </mrow>
+							  <mrow>
+								  \amp = \ln|e^z - 7| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-140-GW-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 3
+		  </title>
+		  
+		  <xi:include href="./GW-140-Instructions.ptx" />
+		  
+		  
+		  <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(x) = x^3+2\sqrt{x}+8\pi</m>
+					  </p>
+			  	
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(x) \amp = \frac{d}{dx} \left[ x^3 + 2x^{1/2} + 8 \pi \right]
+							  </mrow>
+							  <mrow>
+								  \amp = 3x^2 + 2\cdot \frac{1}{2} x^{-1/2}
+							  </mrow>
+							  <mrow>
+								  \amp = 3x^2 + x^{-1/2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>g(x) = e^{2x^2-x}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  g'(x) \amp = e^{2x^2-x} \cdot \frac{d}{dx}[2x^2-x]
+							  </mrow>
+							  <mrow>
+								  \amp = e^{2x^2-x} \cdot (4x-1)
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>r(x) = \ln(\cos(4x))</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  r'(x) \amp = \frac{1}{\cos(4x)} \cdot \frac{d}{dx}[\cos(4x)]
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{\cos(4x)} \cdot -\sin(4x) \cdot \frac{d}{dx}[4x]
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{-\sin(4x)}{\cos(4x)}\cdot 4
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(t) = \arcsin(t+1)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(t) \amp = \frac{1}{\sqrt{1-(t+1)^2}} \cdot \frac{d}{dt}[t+1]
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{\sqrt{1-(t+1)^2}}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(x) = \dfrac{x^3+2x}{x^2}</m>
+					  </p>
+			  	
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(x) \amp = \frac{d}{dx}\left[ x + 2x^{-1}\right]
+							  </mrow>
+							  <mrow>
+								  \amp = 1-2x^{-2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>g(\theta) = \tan^3(4\theta)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								g'(\theta)  \amp = \frac{d}{d\theta}\left[(\tan(4\theta))^3\right]
+							  </mrow>
+							  <mrow>
+								  \amp = 3\tan^2(4\theta)\cdot \frac{d}{d\theta}[\tan(4\theta)]
+							  </mrow>
+							  <mrow>
+								  \amp = 3\tan^2(4\theta) \cdot \sec^2(4\theta) \cdot \frac{d}{d\theta}[4\theta]
+							  </mrow>
+							  <mrow>
+							  	\amp = 3\tan^2(4\theta) \cdot \sec^2(4\theta) \cdot 4
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>h(t) = \dfrac{3t+5}{t^2+2}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								 h'(t) \amp = \frac{(t^2+2)\cdot \frac{d}{dt}[3t+5] - (3t+5)\cdot \frac{d}{dt}[t^2+2]}{(t^2+2)^2}
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{(t^2+2)\cdot 3 - (3t+5) \cdot 2t}{(t^2+2)^2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>y = 4^x \sin(2x)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \frac{dy}{dx} \amp = 4^x \cdot \frac{d}{dx}[\sin(2x)] + \sin(2x) \cdot \frac{d}{dx}[4^x]
+							  </mrow>
+							  <mrow>
+								  \amp = 4^x\cdot \cos(2x)\cdot 2 + \sin(2x) \cdot \ln(4)\cdot 4^x 
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

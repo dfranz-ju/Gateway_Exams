@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-140-GW-7" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 7
+		  </title>
+		  
+		  <xi:include href="./GW-140-Instructions.ptx" />
+		  
+		  
+		  <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(x) = x^{6} - 2x^{7.1} + 5x + 3</m>
+					  </p>
+			  	
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(x) \amp = 6x^5 - 2\cdot 7.1x^{6.1} + 5
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>g(t) =  6\ln(t^8 + 5t)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  g'(t) \amp = 6\cdot \frac{1}{t^8 + 5t}\cdot \frac{d}{dt}[t^8+5t]
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{6}{t^8+5t} \cdot (8t^7 + 5)
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>r(\theta) = \cos(2\theta^5+\theta)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  r'(\theta) \amp = -\sin(2\theta^5 +\theta) \cdot \frac{d}{d\theta}[2\theta^5 + \theta]
+							  </mrow>
+							  <mrow>
+								  \amp = -\sin(2\theta^5 + \theta) \cdot (10\theta^4 + 1)
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(z) = z \arctan(7z)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(z) \amp = z \cdot \frac{d}{dz}[\arctan(7z)] + \arctan(7z)\cdot \frac{d}{dz}[z]
+							  </mrow>
+							  <mrow>
+								  \amp = z\cdot \frac{1}{1+(7z)^2}\cdot \frac{d}{dz}[7z] + \arctan(7z)\cdot 1
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{z}{1+49z^2}\cdot 7 + \arctan(7z)
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(w) = \dfrac{4w^3-6w}{\sin(w)}</m>
+					  </p>
+			  	
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(w) \amp = \frac{\sin(w) \cdot \frac{d}{dw}[4w^3-6w] - (4w^3-6w)\cdot \frac{d}{dw}[\sin(w)]}{(\sin(w))^2}
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{\sin(w)\cdot(12w^2-6) - (4w^3-6w)\cdot \cos(w)}{\sin^2(w)}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>g(x) = x^6 e^{3x}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  g'(x) \amp = x^6 \cdot \frac{d}{dx}[e^{3x}] + e^{3x}\cdot\frac{d}{dx}[x^6]
+							  </mrow>
+							  <mrow>
+								  \amp = x^6\cdot e^{3x}\cdot \frac{d}{dx}[3x] + e^{3x}\cdot 6x^5
+							  </mrow>
+							  <mrow>
+								  \amp = x^6 \cdot e^{3x}\cdot 3 + e^{3x}\cdot 6x^5
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>y = \ln(9) 4^{2x+5}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \frac{dy}{dx} \amp = \ln(9) \cdot \ln(4)\cdot 4^{2x+5}\cdot \frac{d}{dx}[2x+5]
+							  </mrow>
+							  <mrow>
+								  \amp = \ln(9)\cdot \ln(4) \cdot 4^{2x+5}\cdot 2
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>h(x) = \dfrac{1}{x^3} + \sqrt[3]{x} + 3x - \dfrac{1}{3} \pi</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  h'(x) \amp = \frac{d}{dx}\left[x^{-3} + x^{1/3} +3x - \frac{1}{3}\pi \right]
+							  </mrow>
+							  <mrow>
+								  \amp = -3x^{-4} + \frac{1}{3}x^{-2/3} + 3
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

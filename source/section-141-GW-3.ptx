@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-141-GW-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 3
+		  </title>
+		  
+		  <xi:include href="./GW-141-Instructions.ptx" />
+		  
+		  
+		  <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \left(\frac{1}{2}x^2 - 2\sqrt{x} +3\right) \, dx </m>
+					  </p>
+
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \int \left(\frac{1}{2}x^2 - 2\sqrt{x} +3\right) \, dx \amp = \int \left( \frac{1}{2} x^2 - 2x^{1}{2} + 3\right) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2} \cdot \frac{x^3}{3} - 2\frac{x^{3/2}}{3/2} + 3x + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{x^3}{6} - \frac{4}{3} x^{3/2} + 3x + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \frac{5t}{t^2+5} \, dt </m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=t^2+5</m> and <m>du = 2t \, dt</m>, so <m>\dfrac{1}{2} \, du = t \, dt</m>:
+						  <md>
+							  <mrow>
+								  \int \frac{5t}{t^2+5} \, dt \amp = \int 5 \cdot \frac{1}{2} \frac{1}{u} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{5}{2} \ln|u| + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{5}{2} \ln|t^2+5| + C
+							  </mrow>
+						  </md>
+					  </p>
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int xe^{2x^2-3} \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=2x^2-3</m> and <m>du=4x \, dx</m>, so <m>\dfrac{1}{4} \, du = x \, dx</m>:
+						  <md>
+							  <mrow>
+								  \int xe^{2x^2-3} \, dx \amp = \int \frac{1}{4} e^u \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{4} e^u + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{4} e^{2x^2-3} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \frac{7}{(x-3)(x+7)} \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  First decompose the integrand into partial fractions:
+						  <me>
+							  \frac{7}{(x-3)(x+7)} = \frac{A}{x-3} + \frac{B}{x+7}
+						  </me>
+						  This yields
+						  <me>
+							  7 = A(x+7) + B(x-3)
+						  </me>.
+						  Plug in <m>x=3</m> to solve for <m>A</m> and <m>x=-7</m> to solve for <m>B</m>:
+						  <me>7 = 10A + 0 \implies A=\frac{7}{10}</me>
+						  <me>7 = 0 - 10B \implies B=-\frac{7}{10}</me>
+						  Now perform the integration:
+						  <md>
+							  <mrow>
+								  \int \frac{7}{(x-3)(x+7)} \, dx \amp = \int \left( \frac{7}{10}\cdot \frac{1}{x-3} - \frac{7}{10} \cdot\frac{1}{x+7} \right) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{7}{10} \ln|x-3| - \frac{7}{10} \ln|x+7| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \frac{2x^3+3x}{x^2} \, dx </m>
+					  </p>
+
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \int \frac{2x^3+3x}{x^2} \, dx \amp = \int (2x + 3x^{-1}) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = 2\cdot \frac{x^2}{2} + 3\ln|x| + C
+							  </mrow>
+							  <mrow>
+								  \amp = x^2 + 3 \ln|x| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int 2xe^{3x} \, dx </m>
+					  </p>
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use integration by parts with 
+						  <md>
+							  <mrow>
+								  u \amp = 2x \amp dv \amp = e^{3x} \, dx
+							  </mrow>
+							  <mrow>
+								  du \amp = 2 \, dx \amp v \amp = \frac{1}{3}e^x
+							  </mrow>
+						  </md>
+						  Then
+						  <md>
+							  <mrow>
+								  \int 2xe^{3x} \, dx \amp = 2x \cdot \frac{1}{3}e^{3x} - \int \frac{1}{3} e^{3x} \cdot 2 \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{2}{3} x e^{3x} - \frac{2}{9} e^{3x} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int 2x^3 \ln(x) \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use integration by parts with 
+						  <md>
+							  <mrow>
+								  u \amp = \ln(x) \amp dv \amp = 2x^3 \, dx
+							  </mrow>
+							  <mrow>
+								  du \amp = \frac{1}{x} \, dx \amp v \amp = \frac{1}{2}x^4
+							  </mrow>
+						  </md>
+						  Then
+						  <md>
+							  <mrow>
+								  \int 2x^3 \ln(x) \, dx \amp = \ln(x) \cdot \frac{1}{2} x^4 - \int \frac{1}{2} x^4 \cdot \frac{1}{x} \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2} x^4 \ln(x) - \frac{1}{2} \int x^3 \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2} x^4 \ln(x) -\frac{1}{2} \cdot \frac{x^4}{4} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int x^2(5x^3-8)^4 \, dx </m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=5x^3-8</m> and <m>du=15x^2 \, dx</m>, so <m> \dfrac{1}{15} \, du = x^2 \, dx</m>:
+						  <md>
+							  <mrow>
+								  \int x^2(5x^3-8)^4 \, dx \amp = \int \frac{1}{15} \cdot u^4 \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{15} \cdot \frac{u^5}{5} + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{(5x^3-8)^5}{75} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

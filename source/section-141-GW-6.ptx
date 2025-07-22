@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-141-GW-6" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 6
+		  </title>
+		  
+		  <xi:include href="./GW-141-Instructions.ptx" />
+		  
+		  
+		  <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int (y^{-3} + 8e) \, dy </m>
+					  </p>
+
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \int (y^{-3} + 8e) \, dy \amp = \frac{y^{-2}}{-2} + 8ey + C
+							  </mrow>
+							  <mrow>
+							  	
+							  </mrow>
+						  </md>
+					  </p>
+				  
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int xe^{2x} \, dx </m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use integration by parts with 
+						  <md>
+							  <mrow>
+								  u \amp = x \amp dv \amp = e^{2x} \, dx
+							  </mrow>
+							  <mrow>
+								  du \amp = 1 \, dx  \amp v \amp = \dfrac{1}{2}e^{2x}
+							  </mrow>
+						  </md>
+						  Then
+						  <md>
+							  <mrow>
+								  \int xe^{2x} \, dx \amp = x \cdot \frac{1}{2}e^{2x} - \int \frac{1}{2}e^{2x} \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2}xe^{2x} - \frac{1}{2} \cdot \frac{1}{2}e^{2x} + C
+							  </mrow>
+						  </md>
+					  </p>
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \frac{x+3}{\sqrt{x^2+6x-11}} \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u= x^2+6x-11</m> and <m>du = (2x+6) \, dx</m>, so <m>\dfrac{1}{2} \, du = (x+3) \, dx</m>:
+						  <md>
+							  <mrow>
+								  \int \frac{x+3}{\sqrt{x^2+6x-11}} \, dx \amp = \int \frac{1}{2} \frac{1}{\sqrt{u}} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2} \int u^{-1/2} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2} \cdot \frac{u^{1/2}}{1/2} + C
+							  </mrow>
+							  <mrow>
+								  \amp = \sqrt{x^2+6x-11} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int z\cos(\pi z^2) \, dz </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u= \pi z^2</m> and <m>du = 2\pi z \, dz</m>, so <m>\dfrac{1}{2\pi} \, du = z \, dz</m>:
+						  <md>
+							  <mrow>
+								  \int z\cos(\pi z^2) \, dz \amp = \int \frac{1}{2\pi} \cos(u) \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2\pi} \sin(u) + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2\pi} \sin(\pi z^2) + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \sin(5\theta)\cos(5\theta) \, d\theta </m>
+					  </p>
+
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u = \sin(5\theta)</m> and <m>du = 5\cos(5\theta) \, d\theta</m>, so <m>\dfrac{1}{5} \, du = \cos(5\theta) \, d\theta</m>:
+						  <md>
+							  <mrow>
+								  \int \sin(5\theta)\cos(5\theta) \, d\theta \amp = \int \frac{1}{5} u \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{5} \frac{u^2}{2} + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{\sin^2(5\theta)}{10} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \frac{x}{1+9x^2} \, dx </m>
+					  </p>
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u = 1+9x^2</m> and <m>du = 18x \, dx</m>, so <m>\dfrac{1}{18} \, du = x \, dx</m>:
+						  <md>
+							  <mrow>
+								  \int \frac{x}{1+9x^2} \, dx \amp = \int \frac{1}{18} \frac{1}{u} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{18} \ln|u| + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{18} \ln|1+9x^2| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int t^2 \ln(t) \, dt </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use integration by parts with 
+						  <md>
+							  <mrow>
+								  u \amp = \ln(t) \amp dv \amp = t^2 \, dt
+							  </mrow>
+							  <mrow>
+								  du \amp = \frac{1}{t} \, dt  \amp v \amp = \frac{t^3}{3}
+							  </mrow>
+						  </md>
+						  Then
+						  <md>
+							  <mrow>
+								  \int t^2 \ln(t) \, dt \amp = \ln(t) \cdot \frac{t^3}{3} - \int \frac{t^3}{3} \cdot \frac{1}{t} \, dt
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{3} t^3 \ln(t) - \int \frac{1}{3} t^2 \, dt
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{3} t^3 \ln(t) - \frac{1}{3} \cdot \frac{t^3}{3} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \frac{1}{(x+2)(x-3)} \, dx </m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  First decompose the integrand into partial fractions:
+						  <me>
+							  \frac{1}{(x+2)(x-3)} = \frac{A}{x+2} + \frac{B}{x-3}
+						  </me>
+						  This yields
+						  <me>
+							  1 = A(x-3) + B(x+2)
+						  </me>.
+						  Plug in <m>x=-2</m> to solve for <m>A</m> and <m>x=3</m> to solve for <m>B</m>:
+						  <me>1 = -5A + 0 \implies A=-\frac{1}{5}</me>
+						  <me>1 = 0 + 5B \implies B=\frac{1}{5}</me>
+						  Now perform the integration:
+						  <md>
+							  <mrow>
+								  \int \frac{1}{(x+2)(x-3)} \, dx \amp = \int \left(-\frac{1}{5}\cdot \frac{1}{x+2} + \frac{1}{5} \cdot \frac{1}{x-3}\right) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = -\frac{1}{5} \ln|x+2| +\frac{1}{5} \ln|x-3| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-141-GW-8" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 8
+		  </title>
+		  
+		  <xi:include href="./GW-141-Instructions.ptx" />
+		  
+		  
+		   <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \left( 3x^4 + \frac{1}{\sqrt{x}} + 2^{3x}\right) \, dx </m>
+					  </p>
+
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \int \left( 3x^4 + \frac{1}{\sqrt{x}} + 2^{3x}\right) \, dx \amp = \int (3x^4 + x^{-1/2} + 2^{3x}) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = 3\cdot \frac{x^5}{5} + \frac{x^{1/2}}{1/2} + \frac{1}{3} \cdot \frac{1}{\ln(2)}2^{3x} + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{3}{5} x^5 + 2\sqrt{x} + \frac{2^{3x}}{3\ln(2)} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int t^2e^{2t} \, dt </m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use integration by parts with 
+						  <md>
+							  <mrow>
+								  u \amp = t^2 \amp dv \amp = e^{2t} \, dt
+							  </mrow>
+							  <mrow>
+								  du \amp = 2t \, dt  \amp v \amp = \frac{1}{2} e^{2t}
+							  </mrow>
+						  </md>
+						  Then
+						  <md>
+							  <mrow>
+								  \int t^2e^{2t} \, dt \amp = t^2\cdot \frac{1}{2}e^{2t} - \int \frac{1}{2}e^{2t} \cdot 2t \, dt
+							  </mrow>
+							  <mrow>
+								  \amp =\frac{1}{2}t^2 e^{2t} - \int te^{2t} \, dt
+							  </mrow>
+						  </md>
+						  We  now use integration by parts again on the new integral.
+						  <md>
+							  <mrow>
+								  u \amp = t \amp dv \amp = e^{2t} \, dt
+							  </mrow>
+							  <mrow>
+								  du \amp = 1\, dt \amp v \amp =  \frac{1}{2}e^{2t}
+							  </mrow>
+						  </md>
+						  So
+						  <md>
+							  <mrow>
+								  \int t^2e^{2t} \, dt \amp = \frac{1}{2}t^2 e^{2t} - \left(t\cdot \frac{1}{2}e^{2t} - \int \frac{1}{2} e^{2t} \, dt\right)
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2}t^2 e^{2t} -\frac{1}{2}te^{2t} + \frac{1}{2} \cdot \frac{1}{2} e^{2t} + C
+							  </mrow>
+						  </md>
+					  </p>
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int 5x^2(x^3+4)^{12} \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=x^3 + 4</m> and <m>du = 3x^2 \, dx</m>, so <m>\dfrac{1}{3} \, du = x^2 \, dx</m>
+						  <md>
+							  <mrow>
+								  \int 5x^2(x^3+4)^{12} \, dx \amp = \int 5 \cdot \frac{1}{3} u^{12} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{5}{3} \cdot \frac{u^{13}}{13} + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{5}{39} (x^3+4)^{13} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \frac{x}{(x-2)(x-3)} \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  First decompose the integrand into partial fractions:
+						  <me>
+							  \frac{x}{(x-2)(x-3)} = \frac{A}{x-2} + \frac{B}{x-3}
+						  </me>
+						  This yields
+						  <me>
+							  x = A(x-3) + B(x-2)
+						  </me>.
+						  Plug in <m>x=2</m> to solve for <m>A</m> and <m>x=3</m> to solve for <m>B</m>:
+						  <me>2 = -A + 0 \implies A=-2</me>
+						  <me>3 = 0 + B \implies B=3</me>
+						  Now perform the integration:
+						  <md>
+							  <mrow>
+								  \int \frac{x}{(x-2)(x-3)} \, dx \amp = \int \left(\frac{-2}{x-2} + \frac{3}{x-3}\right)\, dx
+							  </mrow>
+							  <mrow>
+								  \amp = -2\ln|x-2| + 3\ln|x-3| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \frac{\sin(\theta)}{\cos(\theta)} \, d\theta </m>
+					  </p>
+
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=\cos(\theta)</m> and <m>du = -\sin(\theta) \, d\theta</m>, so <m>-du = \sin(\theta) \, d\theta</m>:
+						  <md>
+							  <mrow>
+								  \int \frac{\sin(\theta)}{\cos(\theta)} \, d\theta \amp = \int - \frac{1}{u} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = -\ln|u| + C
+							  </mrow>
+							  <mrow>
+								  \amp = -\ln|\cos(\theta)| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int x^8 \ln(x) \, dx </m>
+					  </p>
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use integration by parts with 
+						  <md>
+							  <mrow>
+								  u \amp = \ln(x) \amp dv \amp = x^8 \, dx
+							  </mrow>
+							  <mrow>
+								  du \amp = \dfrac{1}{x} \, dx  \amp v \amp = \dfrac{x^9}{9}
+							  </mrow>
+						  </md>
+						  Then
+						  <md>
+							  <mrow>
+								  \int x^8 \ln(x) \, dx \amp = \ln(x) \cdot \frac{x^9}{9} - \int \frac{x^9}{9} \cdot \frac{1}{x} \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{9}x^9 \ln(x) - \int \frac{1}{9} x^8 \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{9} x^9 \ln(x) - \frac{1}{9}\cdot \frac{1}{9} x^9 + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \frac{3x+2}{6x^2+8x+5} \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=6x^2+8x+5</m> and <m>du = (12x + 8) \, dx</m>, so <m>\dfrac{1}{4} \, du = (3x+2)\, dx</m>:
+						  <md>
+							  <mrow>
+								  \int \frac{3x+2}{6x^2+8x+5} \, dx \amp = \int \frac{1}{4}\cdot \frac{1}{u} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{4}\ln|u| + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{4}\ln|6x^2 + 8x + 5| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int 7t\cos(t^2+5) \, dt </m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u = t^2 + 5</m> and <m>du = 2t \, dt</m>, so <m>\dfrac{1}{2} \, du = t \, dt</m>:
+						  <md>
+							  <mrow>
+								  \int 7t\cos(t^2+5) \, dt \amp = \int 7 \cdot \frac{1}{2} \cos(u) \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{7}{2} \sin(u) + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{7}{2} \sin(t^2+5) + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-140-GW-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 5
+		  </title>
+		  
+		  <xi:include href="./GW-140-Instructions.ptx" />
+		  
+		  
+		   <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>y = 7x^{6} + 2x^{3.1}-4x+ \dfrac{5}{x^6}</m>
+					  </p>
+			  	
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \frac{dy}{dx} \amp = \frac{d}{dx}[7x^6 + 2x^{3.1} - 4x + 5x^{-6}]
+							  </mrow>
+							  <mrow>
+								  \amp = 42x^5 + 6.2x^{2.1} - 4  - 30x^{-7}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>g(x) = x^4 \ln(6x^5)+ 10e^3</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  g'(x) \amp = x^4 \cdot \frac{d}{dx}[\ln(6x^5)] + \ln(6x^5) \cdot \frac{d}{dx}[x^4]
+							  </mrow>
+							  <mrow>
+								  \amp = x^4 \cdot \frac{1}{6x^5} \cdot \frac{d}{dx}[6x^5] + \ln(6x^5)\cdot 4x^3
+							  </mrow>
+							  <mrow>
+								  \amp = x^4 \cdot \frac{1}{6x^5} \cdot 30x^4 + \ln(6x^5)\cdot 4x^3
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>r(\theta) = 8(\sin(4\theta))^{-10}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+					  	<md>
+							  <mrow>
+								  r'(\theta) \amp = -80 (\sin(4\theta))^{-11}\cdot \frac{d}{d\theta}[\sin(4\theta)]
+							  </mrow>
+							  <mrow>
+								  \amp = -80 (\sin(4\theta))^{-11}\cdot \cos(4\theta) \cdot \frac{d}{d\theta}[4\theta]
+							  </mrow>
+							  <mrow>
+							  	\amp = -80 (\sin(4\theta))^{-11}\cdot \cos(4\theta) \cdot 4
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(x) = \ln(6) 7^{100x}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(x) \amp = \ln(6) \cdot \ln(7)\cdot 7^{100x}\cdot \frac{d}{dx}[100x]
+							  </mrow>
+							  <mrow>
+								  \amp = \ln(6)\cdot \ln(7)\cdot 7^{100x}\cdot 100
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(w) = \dfrac{w^6}{\arcsin(w)}</m>
+					  </p>
+			  	
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(w) \amp = \frac{\arcsin(w)\cdot \frac{d}{dw}[w^6] - w^6 \cdot \frac{d}{dw}[\arcsin(w)]}{(\arcsin(w))^2}
+							  </mrow>
+							  <mrow>
+								  \amp = \cfrac{\arcsin(w)\cdot (6w^5) - w^6 \cdot \frac{1}{\sqrt{1-w^2}}}{(\arcsin(w))^2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>g(t) = \arctan(7t^4)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  g'(t) \amp = \frac{1}{1+(7t^4)^2} \cdot \frac{d}{dt}[7t^4]
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{1+(7t^4)^2} \cdot 28t^3
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>h(z) = \cos(60z^2 + 100z)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  h'(z) \amp = -\sin(60z^2 + 100z) \cdot \frac{d}{dz}[60z^2+100z] 
+							  </mrow>
+							  <mrow>
+								  \amp = -\sin(60z^2 + 100z) \cdot (120z+100)
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>h(x) = 6e^{5x} + \sqrt{x^5-6x} </m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  h'(x) \amp = \frac{d}{dx}\left[6e^{5x} + (x^5-6x)^{1/2}\right]
+							  </mrow>
+							  <mrow>
+								   \amp = 6e^{5x} \cdot \frac{d}{dx}[5x] + \frac{1}{2}(x^5-6x)^{-1/2} \cdot \frac{d}{dx}[x^5-6x]
+							  </mrow>
+							  <mrow>
+								  \amp = 6e^{5x} \cdot 5 + \frac{1}{2}(x^5-6x)^{-1/2}\cdot (5x^4-6)
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

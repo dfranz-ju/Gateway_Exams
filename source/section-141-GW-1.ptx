@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-141-GW-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 1
+		  </title>
+		  
+		  <xi:include href="./GW-141-Instructions.ptx" />
+		  
+		  
+		  <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int (2x^3+x+12) \, dx</m>
+					  </p>
+
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \int (2x^3+x+12) \, dx \amp = 2\cdot \frac{x^4}{4} + \frac{x^2}{2} + 12x + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2}x^4 + \frac{1}{2} x^2 + 12x + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \frac{4x}{2x^2+3} \, dx</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m> u=2x^2+3</m> and <m>du = 4x \, dx</m>.
+						  <md>
+							  <mrow>
+								  \int \frac{4x}{2x^2+3} \, dx \amp = \int \frac{1}{u} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \ln|u| + C
+							  </mrow>
+							  <mrow>
+								  \amp = \ln|2x^2+3|+C
+							  </mrow>
+						  </md>
+					  </p>
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int 3e^{5z} \, dz</m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=5z</m> and <m>du = 5\, dz</m>, so <m>\dfrac{1}{5}\, du = dz</m>.
+						  <md>
+							  <mrow>
+								  \int 3e^{5z} \, dz \amp = \int 3e^u\cdot \frac{1}{5} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{3}{5} \int e^u \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{3}{5}e^u + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{3}{5}e^{5z} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \frac{4}{x(x-2)}\, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  First decompose the integrand into partial fractions:
+						  <me>
+							  \frac{4}{x(x-2)} = \frac{A}{x} + \frac{B}{x-2}
+						  </me>
+						  This yields
+						  <me>
+							  4 = A(x-2) + Bx
+						  </me>
+						  Plug in <m>x=2</m> to solve for <m>B</m> and <m>x=0</m> to solve for <m>A</m>:
+						  <me>4 = 0 + 2B \implies B=2</me>
+						  <me>4=A(-2) + 0 \implies A=-2</me>
+						  Now perform the integration
+						  <md>
+							  <mrow>
+								  \int \frac{4}{x(x-2)}\, dx \amp = \int\left(\frac{-2}{x} + \frac{2}{x-2}\right) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = -2\ln|x| + 2\ln|x-2| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \left(3x^{-2} + \frac{1}{x}\right) \, dx</m>
+					  </p>
+
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \int \left(3x^{-2} + \frac{1}{x}\right) \, dx \amp = 3\frac{x^{-1}}{-1} + \ln|x| +C
+							  </mrow>
+							  <mrow>
+								  \amp = -3 x^{-1} + \ln|x| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int 8t \cos(t) \, dt</m>
+					  </p>
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use integration by parts with 
+						  <md>
+							  <mrow>
+								  u \amp = 8t \amp dv \amp = \cos(t) \, dt
+							  </mrow>
+							  <mrow>
+								  du \amp = 8 \, dt \amp v \amp = \sin(t)
+							  </mrow>
+						  </md>
+						  Then
+						  <md>
+							  <mrow>
+							\int 8t \cos(t) \amp = 8t\sin(t) - \int 8\sin(t) \, dt	  
+							  </mrow>
+							  <mrow>
+								  \amp = 8t\sin(t) + 8\cos(t)+C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int 2x^3(x^4+5)^6 \, dx</m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=x^4+5</m> and <m>du = 4x^3 \, dx</m>, so <m>\dfrac{1}{4} \, du = x^3 \, dx</m>.
+						  <md>
+							  <mrow>
+								  \int 2x^3(x^4+5)^6 \, dx \amp = 2\int u^6 \cdot \frac{1}{4} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2} \frac{u^7}{7} + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{(x^4+5)^7}{14} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \sqrt{4x+7} \, dx </m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=4x+7</m> and <m>du = 4\, dx</m>, so <m>\dfrac{1}{4} \, du = dx</m>.
+						  <md>
+							  <mrow>
+								  \int \sqrt{4x+7} \, dx \amp = \int u^{1/2} \cdot \frac{1}{4} \, du
+							  </mrow>
+							  <mrow>
+								  \amp \frac{1}{4} \cdot \frac{u^{3/2}}{3/2} + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{4}\cdot \frac{2}{3} (4x+7)^{3/2} +C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

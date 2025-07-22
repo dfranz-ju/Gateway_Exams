@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-141-GW-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 2
+		  </title>
+		  
+		  <xi:include href="./GW-141-Instructions.ptx" />
+		  
+		  
+		  <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \left(3x^5 + \frac{1}{x^3} + 5\right) \, dx</m>
+					  </p>
+
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \int \left(3x^5 + \frac{1}{x^3} + 5\right) \, dx \amp = \int ( 3x^5 + x^{-3} + 5) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = 3 \frac{x^6}{6} + \frac{x^{-2}}{2} + 5x + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \frac{2x}{3x^2+4} \, dx </m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=3x^2+4</m> and <m>du=6x \, dx</m>, so <m>\dfrac{1}{6} du = x \, dx</m>:
+						  <md>
+							  <mrow>
+								  \int \frac{2x}{3x^2+4} \, dx \amp = \int 2 \frac{1}{6} \frac{1}{u} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{3} \ln|u| + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{3}\ln|3x^2+4| + C
+							  </mrow>
+						  </md>
+					  </p>
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int x^2e^{2x^3} \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use subsitution with <m>u=2x^3</m> and <m>du = 6x^2 \, dx</m>, so <m>\dfrac{1}{6} \, du = x^2 \, dx</m>:
+						  <md>
+							  <mrow>
+								  \int x^2e^{2x^3} \, dx \amp = \int \frac{1}{6} e^u \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{6} e^u + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{6}e^{2x^3}+C
+							  </mrow>
+						  </md>
+					  </p>
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \frac{10}{(x-2)(x+5)} \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  First decompose the integrand into partial fractions:
+						  <me>
+							  \frac{10}{(x-2)(x+5)} = \frac{A}{x-2} + \frac{B}{x+5}
+						  </me>
+						  This yields
+						  <me>
+							  10 = A(x+5) + B(x-2)
+						  </me>.
+						  Plug in <m>x=2</m> to solve for <m>A</m> and <m>x=-5</m> to solve for <m>B</m>:
+						  <me>10 = 7A + 0 \implies A=\frac{10}{7}</me>
+						  <me>10= 0 -7B \implies B=-\frac{10}{7}</me>
+						  Now perform the integration:
+						  <md>
+							  <mrow>
+								   \int \frac{10}{(x-2)(x+5)} \, dx \amp = \int \left( \frac{10}{7}\frac{1}{x-2} - \frac{10}{7} \frac{1}{x+5} \right) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{10}{7}\ln|x-2| - \frac{10}{7} \ln|x+5| + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int \frac{x^3+x+2}{x^2} \, dx </m>
+					  </p>
+
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \int \frac{x^3+x+2}{x^2} \, dx \amp = \int (x + x^{-1} + 2x^{-2}) \, dx
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{x^2}{2} + \ln|x| + 2\frac{x^{-1}}{-1} + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{x^2}{2} + \ln|x| -\frac{2}{x} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						 <m>\displaystyle \int t\sin(t) \, dt </m>
+					  </p>
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use integration by parts with 
+						  <md>
+							  <mrow>
+								  u \amp = t \amp dv \amp = \sin(t) \, dt
+							  </mrow>
+							  <mrow>
+								  du \amp = dt \amp v \amp = -\cos(t)
+							  </mrow>
+						  </md>
+						  Then
+						  <md>
+							  <mrow>
+								  \int t\sin(t) \, dt \amp = t\cdot (-\cos(t)) - \int -\cos(t) \, dt
+							  </mrow>
+							  <mrow>
+								  \amp = -t\cos(t)+ \int \cos(t) \, dt
+							  </mrow>
+							  <mrow>
+								  \amp = -t\cos(t) + \sin(t) + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int 5x^2\cos(2x^3) \, dx </m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=2x^3</m> and <m>du = 6x^2 \, dx</m>, so <m>\dfrac{1}{6} \, du = x^2 \, dx</m>:
+						  <md>
+							  <mrow>
+								  \int 5x^2\cos(2x^3) \, dx \amp = \int 5 \frac{1}{6} \cos(u) \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{5}{6} \sin(u) + C
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{5}{6} \sin(2x^3) + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>\displaystyle \int \frac{1}{\sqrt{z+8}} \, dz </m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  Use substitution with <m>u=z+8</m> and <m>du=dz</m>:
+						  <md>
+							  <mrow>
+								  \int \frac{1}{\sqrt{z+8}} \, dz \amp = \int \frac{1}{u} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \int u^{-1/2} \, du
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{u^{1/2}}{1/2} + C
+							  </mrow>
+							  <mrow>
+								  \amp = 2(z+8)^{1/2} + C
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

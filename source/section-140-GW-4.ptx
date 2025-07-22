@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-140-GW-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 4
+		  </title>
+		  
+		  <xi:include href="./GW-140-Instructions.ptx" />
+		  
+		  
+		  <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(x) = x^{6} + \dfrac{1}{\sqrt{x}}-100^{\pi}</m>
+					  </p>
+			  	
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(x) \amp = \frac{d}{dx}[x^6 + x^{-1/2} - 100^{\pi}]
+							  </mrow>
+							  <mrow>
+								  \amp = 6x^5 - \frac{1}{2}x^{-3/2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>g(x) = \cos^4(x^2+x)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  g'(x) \amp = \frac{d}{dx}[(\cos(x^2+x))^4]
+							  </mrow>
+							  <mrow>
+								  \amp = 4\cos^3(x^2+x) \cdot \frac{d}{dx}[\cos(x^2+x)]
+							  </mrow>
+							  <mrow>
+								  \amp = 4\cos^3(x^2+x) \cdot -\sin(x^2+x) \cdot \frac{d}{dx}[x^2+x]
+							  </mrow>
+							  <mrow>
+							  	\amp = 4\cos^3(x^2+x) \cdot -\sin(x^2+x) \cdot (2x+1)
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>r(x) = 3\sin(\ln(x))</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  r'(x) \amp = 3\cos(\ln(x))\cdot \frac{d}{dx}[\ln(x)]
+							  </mrow>
+							  <mrow>
+								  \amp = 3\cos(\ln(x))\cdot \frac{1}{x}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>y = \dfrac{x^3+x}{x^2}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \frac{dy}{dx} \amp = \frac{d}{dx}[x+x^{-1}]
+							  </mrow>
+							  <mrow>
+								  \amp = 1-x^{-2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(x) = 2.1e^{\sin(x^2+1)}</m>
+					  </p>
+			  	
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(x) \amp = 2.1e^{\sin(x^2+1)}\cdot \frac{d}{dx}[\sin(x^2+1)]
+							  </mrow>
+							  <mrow>
+								  \amp = 2.1e^{\sin(x^2+1)}\cdot \cos(x^2+1) \cdot \frac{d}{dx}[x^2+1]
+							  </mrow>
+							  <mrow>
+							  	\amp = 2.1e^{\sin(x^2+1)}\cdot \cos(x^2+1) \cdot 2x
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>g(\theta) = \tan(\theta)\sin(\theta)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  g'(\theta) \amp = \tan(\theta)\cdot \frac{d}{d\theta}[\sin(\theta)] + \sin(\theta) \cdot \frac{d}{d\theta}[\tan(\theta)]
+							  </mrow>
+							  <mrow>
+							  \amp = \tan(\theta)\cdot \cos(\theta) +\sin(\theta) \cdot \sec^2(\theta)	
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>h(t) = \dfrac{t^3}{\cos(3t)}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  h'(t) \amp = \frac{\cos(3t) \cdot \frac{d}{dt}[t^3] - t^3 \frac{d}{dt}[\cos(3t)]}{(\cos(3x))^2}
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{\cos(3t) \cdot 3t^2 - t^3 \cdot (-\sin(3t)) \cdot 3}{\cos^2(3t)}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>h(x) = 5\sin(4x+1)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  h'(x) \amp = 5\cos(4x+1)\cdot \frac{d}{dx}[4x+1]
+							  </mrow>
+							  <mrow>
+								  \amp = 5\cos(4x+1) \cdot 4
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

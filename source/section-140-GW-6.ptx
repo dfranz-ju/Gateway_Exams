@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-140-GW-6" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 6
+		  </title>
+		  
+		  <xi:include href="./GW-140-Instructions.ptx" />
+		  
+		  
+		  <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(x) = 3x^{4} - x^{3.6} + \sqrt{12}</m>
+					  </p>
+			  	
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(x) \amp = 12x^3 - 3.6x^{2.6}
+							  </mrow>
+							  <mrow>
+							  	
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>g(x) = \cos(2x) + 2 \sin(x)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  g'(x) \amp = -\sin(2x) \cdot \frac{d}{dx}[2x] + 2\cos(x)
+							  </mrow>
+							  <mrow>
+								  \amp = -\sin(2x) \cdot 2 + 2\cos(x)
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>h(z) = 2e^z z^3</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  h'(z) \amp = 2e^z \cdot \frac{d}{dz}[z^3] + z^3 \cdot \frac{d}{dz}[2e^z]
+							  </mrow>
+							  <mrow>
+								  \amp = 2e^z \cdot 3z^2 + z^3\cdot 2e^z
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>y = \sqrt{x^3+e^2}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \frac{dy}{dx} \amp = \frac{d}{dx}[(x^3+e^2)^{1/2}]
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2} (x^3+e^2)^{-1/2}\cdot \frac{d}{dx}[x^3+e^2]
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2} (x^3+e^2)^{-1/2} \cdot 3x^2
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>s(t) = \ln(t^2+2.8)</m>
+					  </p>
+			  	
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  s'(t) \amp = \frac{1}{t^2+2.8}\cdot \frac{d}{dt}[t^2+2.8]
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{t^2+2.8} \cdot 2t
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>m(t) = \dfrac{t-2}{e^t}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  m'(t) \amp = \frac{e^t \cdot \frac{d}{dt}[t-2] - (t-2)\cdot \frac{d}{dt}[e^t]}{(e^t)^2}
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{e^t - (t-2)\cdot e^t}{e^{2t}}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>r(x) = e^{2.7x} + \dfrac{1}{x}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  r'(x) \amp = \frac{d}{dx}[e^{2.7x} + x^{-1}]
+							  </mrow>
+							  <mrow>
+								  \amp = e^{2.7x}\cdot \frac{d}{dx}[2.7x]-x^{-2}
+							  </mrow>
+							  <mrow>
+								  \amp = e^{2.7x}\cdot 2.7 -x^{-2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>y(x) = 2(6^x) - e^{\ln(x)}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  y'(x) \amp = \frac{d}{dx}[2(6^x) - x]
+							  </mrow>
+							  <mrow>
+								  \amp = 2\cdot \ln(6) \cdot 6^x - 1
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

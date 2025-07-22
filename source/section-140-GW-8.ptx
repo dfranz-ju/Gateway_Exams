@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+	  
+	  <section xml:id="section-140-GW-8" xmlns:xi="http://www.w3.org/2001/XInclude">
+		  <title>
+			  Practice Gateway Exam 8
+		  </title>
+		  
+		  <xi:include href="./GW-140-Instructions.ptx" />
+		  
+		  
+		   <exercises>
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>f(x) = 3x^4 - 2x^3 + 8e^5</m>
+					  </p>
+
+				  </statement>
+			  
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(x) \amp = 12x^3 - 6x^2
+							  </mrow>
+						  </md>
+					  </p>
+				  
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>g(\theta) = \sin(2\theta) + 3 \cos(\theta)</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  g'(\theta) \amp = \cos(2\theta) \cdot \frac{d}{d\theta}[2\theta] -3\sin(\theta)
+							  </mrow>
+							  <mrow>
+								  \amp = \cos(2\theta) \cdot 2 - 3\sin(\theta)
+							  </mrow>
+						  </md>
+					  </p>
+
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>h(x) = (x^2+1) \ln(5x)</m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  h'(x) \amp = (x^2+1)\cdot \frac{d}{dx}[\ln(5x)] + \ln(5x) \cdot \frac{d}{dx}[x^2+1]
+							  </mrow>
+							  <mrow>
+								  \amp = (x^2+1)\cdot \frac{1}{5x}\cdot \frac{d}{dx}[5x] + \ln(5x)\cdot (2x)
+							  </mrow>
+							  <mrow>
+								  \amp = (x^2+1) \cdot \frac{1}{5x} \cdot 5 + \ln(5x)\cdot 2x
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>r(x) = \dfrac{1}{\sqrt{1+x^2}}</m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  f'(x) = \frac{d}{dx}[(1+x^2)^{-1/2}]
+							  </mrow>
+							  <mrow>
+								  \amp = -\frac{1}{2}(1+x^2)^{-3/2} \cdot \frac{d}{dx}[1+x^2]
+							  </mrow>
+							  <mrow>
+								  \amp = -\frac{1}{2}(1+x^2)^{-3/2} \cdot 2x
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>s(t) = \ln(t^3+t)</m>
+					  </p>
+
+				  </statement>
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  s'(t) \amp = \frac{1}{t^3+t} \cdot \frac{d}{dt}[t^3+t]
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{t^3+t} \cdot (3t^2+1)
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>y = \dfrac{x^3+2x^2}{x^2+1}</m>
+					  </p>
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  \frac{dy}{dx} \amp = \frac{(x^2+1)\cdot \frac{d}{dx}[x^3+2x^2] - (x^3+2x)\cdot \frac{d}{dx}[x^2+1]}{(x^2+1)^2}
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{(x^2+1)\cdot(3x^2+4x) - (x^3+2x^2)\cdot 2x}{(x^2+1)^2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>r(x) = e^{3x+2} + 4\tan(5x)</m>
+					  </p>
+
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  r'(x) \amp = e^{3x+2} \cdot \frac{d}{dx}[3x+2] + 4\sec^2(5x)\cdot \frac{d}{dx}[5x]
+							  </mrow>
+							  <mrow>
+								  \amp = e^{3x+2} \cdot 3 + 4\sec^2(5x) \cdot 5
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>y(x) = 12(5.3^{x})</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  y'(x) \amp = 12\ln(5.3)\cdot 5.3^x
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			 
+			  
+		  </exercises>
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  

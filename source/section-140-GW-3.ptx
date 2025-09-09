@@ -17,7 +17,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>f(x)=2x^3-\frac{1}{2x^9}+10\sqrt{\pi}</m>
+						  <m>f(x)=2x^3-\dfrac{1}{2x^9}+10\sqrt{\pi}</m>
 					  </p>
 			  	
 				  </statement>
@@ -43,7 +43,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>g(y)=\frac{4y^3-3y^2}{2y+1}</m>
+						  <m>g(y)=\dfrac{4y^3-3y^2}{2y+1}</m>
 					  </p>
 			  	
 				  </statement>
@@ -120,7 +120,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>m(\theta)=\left(2\cos(\theta)+\frac{2}{\theta}\right)^3</m>
+						  <m>m(\theta)=\left(2\cos(\theta)+\dfrac{2}{\theta}\right)^3</m>
 					  </p>
 			  	
 				  </statement>
@@ -196,7 +196,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>q(w)=\frac{\tan(2w)}{2w^6}</m>
+						  <m>q(w)=\dfrac{\tan(2w)}{2w^6}</m>
 					  </p>
 			  	
 				  </statement>

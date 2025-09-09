@@ -17,7 +17,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>f(x)=2x^3-\frac{2}{x^3}+\frac{3}{e^2}</m>
+						  <m>f(x)=2x^3-\dfrac{2}{x^3}+\dfrac{3}{e^2}</m>
 					  </p>
 			  	
 				  </statement>
@@ -73,7 +73,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>r(z)=e^z \tan(2z)-\frac{e^3}{3}</m>
+						  <m>r(z)=e^z \tan(2z)-\dfrac{e^3}{3}</m>
 					  </p>
 			  	
 				  </statement>
@@ -98,7 +98,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m> h(t)=\frac{2+\cos(t)}{\arctan(t+1)}</m>
+						  <m> h(t)=\dfrac{2+\cos(t)}{\arctan(t+1)}</m>
 					  </p>
 			  	
 				  </statement>
@@ -176,7 +176,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>p(u)=\sqrt{\frac{3e^u}{u}}+2\sqrt{u}</m>
+						  <m>p(u)=\sqrt{\dfrac{3e^u}{u}}+2\sqrt{u}</m>
 					  </p>
 			  	
 				  </statement>

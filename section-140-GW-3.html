@@ -100,14 +100,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.1';
+eBookConfig.runestone_version = '7.9.10';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.787a04695534ef1e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.014cb392a13bd045.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.fea5c754ab3e056b.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.b37c97cbe7a5455b.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -225,15 +225,14 @@ eBookConfig.enable_chatcodes =  false;
 </h3>
 <article class="exercise exercise-like" id="section-140-GW-3-3-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
 <div class="para" id="section-140-GW-3-3-1-1-1">
-<span class="process-math">\(f(x) = x^3+2\sqrt{x}+8\pi\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(f(x)=2x^3-\dfrac{1}{2x^9}+10\sqrt{\pi}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions"><details id="section-140-GW-3-3-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="section-140-GW-3-3-1-2-1">
 <div class="displaymath process-math" id="section-140-GW-3-3-1-2-1-1">
 \begin{align*}
-f'(x) \amp = \frac{d}{dx} \left[ x^3 + 2x^{1/2} + 8 \pi \right]\\
-\amp = 3x^2 + 2\cdot \frac{1}{2} x^{-1/2}\\
-\amp = 3x^2 + x^{-1/2}
+f'(x) \amp = \frac{d}{dx} \left( 2x^3 -\frac{1}{2}x^{-9} 10 \sqrt{\pi} \right)\\
+\amp = 6x^2 + \frac{9}{2}x^{-10}
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -242,14 +241,14 @@ f'(x) \amp = \frac{d}{dx} \left[ x^3 + 2x^{1/2} + 8 \pi \right]\\
 </div></details></div>
 <div class="autopermalink" data-description="Exercise 1.3.1"><a href="#section-140-GW-3-3-1" title="Copy heading and permalink for Exercise 1.3.1" aria-label="Copy heading and permalink for Exercise 1.3.1">🔗</a></div></article><article class="exercise exercise-like" id="section-140-GW-3-3-2"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
 <div class="para" id="section-140-GW-3-3-2-1-1">
-<span class="process-math">\(g(x) = e^{2x^2-x}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(g(y)=\dfrac{4y^3-3y^2}{2y+1}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions"><details id="section-140-GW-3-3-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="section-140-GW-3-3-2-2-1">
 <div class="displaymath process-math" id="section-140-GW-3-3-2-2-1-1">
 \begin{align*}
-g'(x) \amp = e^{2x^2-x} \cdot \frac{d}{dx}[2x^2-x]\\
-\amp = e^{2x^2-x} \cdot (4x-1)
+g'(y) \amp = \frac{\frac{d}{dy} (4y^3 -3y^2) \cdot (2y+1) - (4y^3-3y^2) \cdot \frac{d}{dy}(2y+1)}{(2y+1)^2}\\
+\amp = \frac{ (12y^2-6y) \cdot (2y+1) - (4y^3-3y^2) \cdot 2}{(2y+1)^2}
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -258,15 +257,14 @@ g'(x) \amp = e^{2x^2-x} \cdot \frac{d}{dx}[2x^2-x]\\
 </div></details></div>
 <div class="autopermalink" data-description="Exercise 1.3.2"><a href="#section-140-GW-3-3-2" title="Copy heading and permalink for Exercise 1.3.2" aria-label="Copy heading and permalink for Exercise 1.3.2">🔗</a></div></article><article class="exercise exercise-like" id="section-140-GW-3-3-3"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
 <div class="para" id="section-140-GW-3-3-3-1-1">
-<span class="process-math">\(r(x) = \ln(\cos(4x))\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(r(z)=\ln(\cos(z^3))+\sin(z)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions"><details id="section-140-GW-3-3-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="section-140-GW-3-3-3-2-1">
 <div class="displaymath process-math" id="section-140-GW-3-3-3-2-1-1">
 \begin{align*}
-r'(x) \amp = \frac{1}{\cos(4x)} \cdot \frac{d}{dx}[\cos(4x)]\\
-\amp = \frac{1}{\cos(4x)} \cdot -\sin(4x) \cdot \frac{d}{dx}[4x]\\
-\amp = \frac{-\sin(4x)}{\cos(4x)}\cdot 4
+r'(z) \amp = \frac{1}{\cos(z^3)} \cdot \frac{d}{dz}\cos(z^3) + \cos(z)\\
+\amp = \frac{1}{\cos(z^3)} \cdot -\sin(z^3) \cdot 3z^2 + \cos(z)
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -275,14 +273,14 @@ r'(x) \amp = \frac{1}{\cos(4x)} \cdot \frac{d}{dx}[\cos(4x)]\\
 </div></details></div>
 <div class="autopermalink" data-description="Exercise 1.3.3"><a href="#section-140-GW-3-3-3" title="Copy heading and permalink for Exercise 1.3.3" aria-label="Copy heading and permalink for Exercise 1.3.3">🔗</a></div></article><article class="exercise exercise-like" id="section-140-GW-3-3-4"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
 <div class="para" id="section-140-GW-3-3-4-1-1">
-<span class="process-math">\(f(t) = \arcsin(t+1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(h(t)=3e^t\arctan(2t)-3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions"><details id="section-140-GW-3-3-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="section-140-GW-3-3-4-2-1">
 <div class="displaymath process-math" id="section-140-GW-3-3-4-2-1-1">
 \begin{align*}
-f'(t) \amp = \frac{1}{\sqrt{1-(t+1)^2}} \cdot \frac{d}{dt}[t+1]\\
-\amp = \frac{1}{\sqrt{1-(t+1)^2}}
+h'(t) \amp = \frac{d}{dt}(3e^t) \cdot \arctan(2t) + 3e^t \cdot \frac{d}{dt}(\arctan(2t)) - 0\\
+\amp = 3e^t \cdot \arctan(2t) + 3e^t \cdot \frac{1}{1+(2t)^2}\cdot 2
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -291,14 +289,14 @@ f'(t) \amp = \frac{1}{\sqrt{1-(t+1)^2}} \cdot \frac{d}{dt}[t+1]\\
 </div></details></div>
 <div class="autopermalink" data-description="Exercise 1.3.4"><a href="#section-140-GW-3-3-4" title="Copy heading and permalink for Exercise 1.3.4" aria-label="Copy heading and permalink for Exercise 1.3.4">🔗</a></div></article><article class="exercise exercise-like" id="section-140-GW-3-3-5"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
 <div class="para" id="section-140-GW-3-3-5-1-1">
-<span class="process-math">\(f(x) = \dfrac{x^3+2x}{x^2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(m(\theta)=\left(2\cos(\theta)+\dfrac{2}{\theta}\right)^3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions"><details id="section-140-GW-3-3-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="section-140-GW-3-3-5-2-1">
 <div class="displaymath process-math" id="section-140-GW-3-3-5-2-1-1">
 \begin{align*}
-f'(x) \amp = \frac{d}{dx}\left[ x + 2x^{-1}\right]\\
-\amp = 1-2x^{-2}
+m'(\theta) \amp = 3\left(2\cos(\theta) + \frac{2}{\theta}\right)^2 \cdot \frac{d}{d\theta}\left(2\cos(\theta) + 2\theta^{-1}\right)\\
+\amp = 3\left(2\cos(\theta) + \frac{2}{\theta}\right)^2 \cdot (-2\sin(\theta) - 2\theta^{-2})
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -307,16 +305,15 @@ f'(x) \amp = \frac{d}{dx}\left[ x + 2x^{-1}\right]\\
 </div></details></div>
 <div class="autopermalink" data-description="Exercise 1.3.5"><a href="#section-140-GW-3-3-5" title="Copy heading and permalink for Exercise 1.3.5" aria-label="Copy heading and permalink for Exercise 1.3.5">🔗</a></div></article><article class="exercise exercise-like" id="section-140-GW-3-3-6"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
 <div class="para" id="section-140-GW-3-3-6-1-1">
-<span class="process-math">\(g(\theta) = \tan^3(4\theta)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(v(n)=\sqrt{n\ln(n)}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions"><details id="section-140-GW-3-3-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="section-140-GW-3-3-6-2-1">
 <div class="displaymath process-math" id="section-140-GW-3-3-6-2-1-1">
 \begin{align*}
-g'(\theta)  \amp = \frac{d}{d\theta}\left[(\tan(4\theta))^3\right]\\
-\amp = 3\tan^2(4\theta)\cdot \frac{d}{d\theta}[\tan(4\theta)]\\
-\amp = 3\tan^2(4\theta) \cdot \sec^2(4\theta) \cdot \frac{d}{d\theta}[4\theta]\\
-\amp = 3\tan^2(4\theta) \cdot \sec^2(4\theta) \cdot 4
+v'(n)  \amp = \frac{d}{dn}((n\ln(n))^{1/2})\\
+\amp = \frac{1}{2} (n\ln(n))^{-1/2} \cdot \frac{d}{dn} (n\ln(n))\\
+\amp = \frac{1}{2}(n\ln(n))^{-1/2} \cdot \left(\ln(n) + n\cdot \frac{1}{n}\right)
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -325,14 +322,13 @@ g'(\theta)  \amp = \frac{d}{d\theta}\left[(\tan(4\theta))^3\right]\\
 </div></details></div>
 <div class="autopermalink" data-description="Exercise 1.3.6"><a href="#section-140-GW-3-3-6" title="Copy heading and permalink for Exercise 1.3.6" aria-label="Copy heading and permalink for Exercise 1.3.6">🔗</a></div></article><article class="exercise exercise-like" id="section-140-GW-3-3-7"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
 <div class="para" id="section-140-GW-3-3-7-1-1">
-<span class="process-math">\(h(t) = \dfrac{3t+5}{t^2+2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(p(u)=\sin(2-u)-\dfrac{\cos(2)}{2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions"><details id="section-140-GW-3-3-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="section-140-GW-3-3-7-2-1">
 <div class="displaymath process-math" id="section-140-GW-3-3-7-2-1-1">
 \begin{align*}
-h'(t) \amp = \frac{(t^2+2)\cdot \frac{d}{dt}[3t+5] - (3t+5)\cdot \frac{d}{dt}[t^2+2]}{(t^2+2)^2}\\
-\amp = \frac{(t^2+2)\cdot 3 - (3t+5) \cdot 2t}{(t^2+2)^2}
+p'(u) \amp = \cos(2-u)\cdot (-1)
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -341,14 +337,14 @@ h'(t) \amp = \frac{(t^2+2)\cdot \frac{d}{dt}[3t+5] - (3t+5)\cdot \frac{d}{dt}[t^
 </div></details></div>
 <div class="autopermalink" data-description="Exercise 1.3.7"><a href="#section-140-GW-3-3-7" title="Copy heading and permalink for Exercise 1.3.7" aria-label="Copy heading and permalink for Exercise 1.3.7">🔗</a></div></article><article class="exercise exercise-like" id="section-140-GW-3-3-8"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
 <div class="para" id="section-140-GW-3-3-8-1-1">
-<span class="process-math">\(y = 4^x \sin(2x)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(q(w)=\dfrac{\tan(2w)}{2w^6}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions"><details id="section-140-GW-3-3-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="section-140-GW-3-3-8-2-1">
 <div class="displaymath process-math" id="section-140-GW-3-3-8-2-1-1">
 \begin{align*}
-\frac{dy}{dx} \amp = 4^x \cdot \frac{d}{dx}[\sin(2x)] + \sin(2x) \cdot \frac{d}{dx}[4^x]\\
-\amp = 4^x\cdot \cos(2x)\cdot 2 + \sin(2x) \cdot \ln(4)\cdot 4^x 
+q'(w) \amp = \frac{\frac{d}{dw}(\tan(2w)) \cdot (2w^6) - \tan(2w) \cdot \frac{d}{dw} (2w^6)}{(2w^6)^2}\\
+\amp = \frac{\sec^2(2w)\cdot 2 \cdot (2w^6) - \tan(2w) \cdot 12w^5}{4w^{12}}
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-3-3-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>

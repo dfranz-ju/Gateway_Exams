@@ -17,7 +17,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>f(x) = x^{6} + \dfrac{1}{\sqrt{x}}-100^{\pi}</m>
+						  <m>f(x)=2x^3-\frac{2}{x^3}+\frac{3}{e^2}</m>
 					  </p>
 			  	
 				  </statement>
@@ -42,7 +42,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>g(x) = \cos^4(x^2+x)</m>
+						  <m> g(y)=\sqrt{\sin(y^2+2y+3)}</m>
 					  </p>
 			  	
 				  </statement>
@@ -73,7 +73,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>r(x) = 3\sin(\ln(x))</m>
+						  <m>r(z)=e^z \tan(2z)-\frac{e^3}{3}</m>
 					  </p>
 			  	
 				  </statement>
@@ -98,7 +98,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>y = \dfrac{x^3+x}{x^2}</m>
+						  <m> h(t)=\frac{2+\cos(t)}{\arctan(t+1)}</m>
 					  </p>
 			  	
 				  </statement>
@@ -123,7 +123,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>f(x) = 2.1e^{\sin(x^2+1)}</m>
+						  <m>m(\theta)=\left(3\pi+4\sin(\theta)\right)^5</m>
 					  </p>
 			  	
 				  </statement>
@@ -150,7 +150,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>g(\theta) = \tan(\theta)\sin(\theta)</m>
+						  <m>v(n)=-\tan\big(\sin(n)\cos(n)\big)</m>
 					  </p>
 			  	
 				  </statement>
@@ -176,7 +176,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>h(t) = \dfrac{t^3}{\cos(3t)}</m>
+						  <m>p(u)=\sqrt{\frac{3e^u}{u}}+2\sqrt{u}</m>
 					  </p>
 			  	
 				  </statement>
@@ -201,7 +201,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>h(x) = 5\sin(4x+1)</m>
+						  <m>q(w)=2e^{3\cos(w)}</m>
 					  </p>
 			  	
 				  </statement>

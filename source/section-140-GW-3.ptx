@@ -17,7 +17,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>f(x) = x^3+2\sqrt{x}+8\pi</m>
+						  <m>f(x)=2x^3-\frac{1}{2x^9}+10\sqrt{\pi}</m>
 					  </p>
 			  	
 				  </statement>
@@ -27,14 +27,12 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  f'(x) \amp = \frac{d}{dx} \left[ x^3 + 2x^{1/2} + 8 \pi \right]
+								  f'(x) \amp = \frac{d}{dx} \left( 2x^3 -\frac{1}{2}x^{-9} 10 \sqrt{\pi} \right)
 							  </mrow>
 							  <mrow>
-								  \amp = 3x^2 + 2\cdot \frac{1}{2} x^{-1/2}
+								  \amp = 6x^2 + \frac{9}{2}x^{-10}
 							  </mrow>
-							  <mrow>
-								  \amp = 3x^2 + x^{-1/2}
-							  </mrow>
+							 
 						  </md>
 					  </p>
 				  
@@ -45,7 +43,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>g(x) = e^{2x^2-x}</m>
+						  <m>g(y)=\frac{4y^3-3y^2}{2y+1}</m>
 					  </p>
 			  	
 				  </statement>
@@ -55,10 +53,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  g'(x) \amp = e^{2x^2-x} \cdot \frac{d}{dx}[2x^2-x]
+								  g'(y) \amp = \frac{\frac{d}{dy} (4y^3 -3y^2) \cdot (2y+1) - (4y^3-3y^2) \cdot \frac{d}{dy}(2y+1)}{(2y+1)^2}
 							  </mrow>
 							  <mrow>
-								  \amp = e^{2x^2-x} \cdot (4x-1)
+								  \amp = \frac{ (12y^2-6y) \cdot (2y+1) - (4y^3-3y^2) \cdot 2}{(2y+1)^2}
 							  </mrow>
 						  </md>
 					  </p>
@@ -70,7 +68,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>r(x) = \ln(\cos(4x))</m>
+						  <m> r(z)=\ln(\cos(z^3))+\sin(z)</m>
 					  </p>
 			  	
 				  </statement>
@@ -80,14 +78,12 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  r'(x) \amp = \frac{1}{\cos(4x)} \cdot \frac{d}{dx}[\cos(4x)]
+								  r'(z) \amp = \frac{1}{\cos(z^3)} \cdot \frac{d}{dz}\cos(z^3) + \cos(z)
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{1}{\cos(4x)} \cdot -\sin(4x) \cdot \frac{d}{dx}[4x]
+								  \amp = \frac{1}{\cos(z^3)} \cdot -\sin(z^3) \cdot 3z^2 + \cos(z)
 							  </mrow>
-							  <mrow>
-								  \amp = \frac{-\sin(4x)}{\cos(4x)}\cdot 4
-							  </mrow>
+							  
 						  </md>
 					  </p>
 				  
@@ -98,7 +94,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>f(t) = \arcsin(t+1)</m>
+						  <m> h(t)=3e^t\arctan(2t)-3</m>
 					  </p>
 			  	
 				  </statement>
@@ -108,10 +104,11 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  f'(t) \amp = \frac{1}{\sqrt{1-(t+1)^2}} \cdot \frac{d}{dt}[t+1]
+								  h'(t) \amp = \frac{d}{dt}(3e^t) \cdot \arctan(2t) + 3e^t \cdot \frac{d}{dt}(\arctan(2t)) - 0
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{1}{\sqrt{1-(t+1)^2}}
+								  \amp = 3e^t \cdot \arctan(2t) + 3e^t \cdot \frac{1}{1+(2t)^2}\cdot 2
+							
 							  </mrow>
 						  </md>
 					  </p>
@@ -123,7 +120,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>f(x) = \dfrac{x^3+2x}{x^2}</m>
+						  <m>m(\theta)=\left(2\cos(\theta)+\frac{2}{\theta}\right)^3</m>
 					  </p>
 			  	
 				  </statement>
@@ -132,10 +129,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  f'(x) \amp = \frac{d}{dx}\left[ x + 2x^{-1}\right]
+								  m'(\theta) \amp = 3\left(2\cos(\theta) + \frac{2}{\theta}\right)^2 \cdot \frac{d}{d\theta}\left(2\cos(\theta) + 2\theta^{-1}\right)
 							  </mrow>
 							  <mrow>
-								  \amp = 1-2x^{-2}
+								  \amp = 3\left(2\cos(\theta) + \frac{2}{\theta}\right)^2 \cdot (-2\sin(\theta) - 2\theta^{-2})
 							  </mrow>
 						  </md>
 					  </p>
@@ -147,39 +144,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>g(\theta) = \tan^3(4\theta)</m>
-					  </p>
-			  	
-				  </statement>
-
-			  
-				  <solution>
-					  <p>
-						  <md>
-							  <mrow>
-								g'(\theta)  \amp = \frac{d}{d\theta}\left[(\tan(4\theta))^3\right]
-							  </mrow>
-							  <mrow>
-								  \amp = 3\tan^2(4\theta)\cdot \frac{d}{d\theta}[\tan(4\theta)]
-							  </mrow>
-							  <mrow>
-								  \amp = 3\tan^2(4\theta) \cdot \sec^2(4\theta) \cdot \frac{d}{d\theta}[4\theta]
-							  </mrow>
-							  <mrow>
-							  	\amp = 3\tan^2(4\theta) \cdot \sec^2(4\theta) \cdot 4
-							  </mrow>
-						  </md>
-					  </p>
-				  
-				  </solution>
-			  </exercise>
-			  
-			  
-			  
-			  <exercise>
-				  <statement>
-					  <p>
-						  <m>h(t) = \dfrac{3t+5}{t^2+2}</m>
+						  <m> v(n)=\sqrt{n\ln(n)}</m>
 					  </p>
 			  	
 				  </statement>
@@ -189,11 +154,38 @@
 					  <p>
 						  <md>
 							  <mrow>
-								 h'(t) \amp = \frac{(t^2+2)\cdot \frac{d}{dt}[3t+5] - (3t+5)\cdot \frac{d}{dt}[t^2+2]}{(t^2+2)^2}
+								v'(n)  \amp = \frac{d}{dn}((n\ln(n))^{1/2})
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{(t^2+2)\cdot 3 - (3t+5) \cdot 2t}{(t^2+2)^2}
+								  \amp = \frac{1}{2} (n\ln(n))^{-1/2} \cdot \frac{d}{dn} (n\ln(n))
 							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2}(n\ln(n))^{-1/2} \cdot \left(\ln(n) + n\cdot \frac{1}{n}\right)
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m> p(u)=\sin(2-u)-\dfrac{\cos(2)}{2}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								 p'(u) \amp = \cos(2-u)\cdot (-1)
+							  </mrow>
+							 
 						  </md>
 					  </p>
 				  
@@ -204,7 +196,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>y = 4^x \sin(2x)</m>
+						  <m>q(w)=\frac{\tan(2w)}{2w^6}</m>
 					  </p>
 			  	
 				  </statement>
@@ -214,10 +206,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  \frac{dy}{dx} \amp = 4^x \cdot \frac{d}{dx}[\sin(2x)] + \sin(2x) \cdot \frac{d}{dx}[4^x]
+								  q'(w) \amp = \frac{\frac{d}{dw}(\tan(2w)) \cdot (2w^6) - \tan(2w) \cdot \frac{d}{dw} (2w^6)}{(2w^6)^2}
 							  </mrow>
 							  <mrow>
-								  \amp = 4^x\cdot \cos(2x)\cdot 2 + \sin(2x) \cdot \ln(4)\cdot 4^x 
+								  \amp = \frac{\sec^2(2w)\cdot 2 \cdot (2w^6) - \tan(2w) \cdot 12w^5}{4w^{12}}
 							  </mrow>
 						  </md>
 					  </p>

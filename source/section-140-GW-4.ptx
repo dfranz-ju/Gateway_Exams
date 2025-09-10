@@ -27,10 +27,13 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  f'(x) \amp = \frac{d}{dx}[x^6 + x^{-1/2} - 100^{\pi}]
+								  f'(x) \amp = 2\frac{d}{dx}(x^3) - 2\frac{d}{dx}\left(\frac{1}{x^3}\right) + \frac{d}{dx}\left( \frac{3}{e^2}\right)
 							  </mrow>
 							  <mrow>
-								  \amp = 6x^5 - \frac{1}{2}x^{-3/2}
+								  \amp = 6x^2 -2\frac{d}{dx} (x^{-3}) + 0
+							  </mrow>
+							  <mrow>
+								  \amp = 6x^2 + 6x^{-4}
 							  </mrow>
 						  </md>
 					  </p>
@@ -52,16 +55,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  g'(x) \amp = \frac{d}{dx}[(\cos(x^2+x))^4]
+								  g'(y) \amp = \frac{1}{2\sqrt{y^2+2y+3}} \cdot \frac{d}{dy}(y^2+2y+3) \amp \text{(Chain Rule)}
 							  </mrow>
 							  <mrow>
-								  \amp = 4\cos^3(x^2+x) \cdot \frac{d}{dx}[\cos(x^2+x)]
-							  </mrow>
-							  <mrow>
-								  \amp = 4\cos^3(x^2+x) \cdot -\sin(x^2+x) \cdot \frac{d}{dx}[x^2+x]
-							  </mrow>
-							  <mrow>
-							  	\amp = 4\cos^3(x^2+x) \cdot -\sin(x^2+x) \cdot (2x+1)
+								  \amp = \frac{1}{2\sqrt{y^2+2y+3}} \cdot (2y+2) \amp
 							  </mrow>
 						  </md>
 					  </p>
@@ -83,10 +80,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  r'(x) \amp = 3\cos(\ln(x))\cdot \frac{d}{dx}[\ln(x)]
+								  r'(z) \amp = \frac{d}{dz}(e^z) \cdot \tan(2z) + e^z \cdot \frac{d}{dz}(\tan(2z)) - 0 \amp \text{(Product Rule)}
 							  </mrow>
 							  <mrow>
-								  \amp = 3\cos(\ln(x))\cdot \frac{1}{x}
+								  \amp = e^z\tan(2z) + e^z \sec^2(2z) \cdot 2 \amp \text{(Chain Rule)}
 							  </mrow>
 						  </md>
 					  </p>
@@ -108,10 +105,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  \frac{dy}{dx} \amp = \frac{d}{dx}[x+x^{-1}]
+								  h'(t) \amp = \frac{\frac{d}{dt}(2+\cos(t)) \cdot \arctan(t+1) - (2+\cos(t)) \cdot \frac{d}{dt}(\arctan(t+1))}{(t+1)^2} \, \text{(Quotient Rule)}
 							  </mrow>
 							  <mrow>
-								  \amp = 1-x^{-2}
+								  \amp = \frac{-\sin(t)\cdot \arctan(t+1) - (2+\cos(t)) \cdot \frac{1}{1+(t+1)^2}}{(t+1)^2}
 							  </mrow>
 						  </md>
 					  </p>
@@ -132,13 +129,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  f'(x) \amp = 2.1e^{\sin(x^2+1)}\cdot \frac{d}{dx}[\sin(x^2+1)]
+								  m'(\theta) \amp = 5(3\pi+4\sin(\theta))^4 \cdot \frac{d}{d\theta} (3\pi + 4\sin(\theta)) \amp \text{(Chain Rule)}
 							  </mrow>
 							  <mrow>
-								  \amp = 2.1e^{\sin(x^2+1)}\cdot \cos(x^2+1) \cdot \frac{d}{dx}[x^2+1]
-							  </mrow>
-							  <mrow>
-							  	\amp = 2.1e^{\sin(x^2+1)}\cdot \cos(x^2+1) \cdot 2x
+								  \amp = 5(3\pi+4\sin(\theta))^4 \cdot 4\cos(\theta)
 							  </mrow>
 						  </md>
 					  </p>
@@ -160,10 +154,13 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  g'(\theta) \amp = \tan(\theta)\cdot \frac{d}{d\theta}[\sin(\theta)] + \sin(\theta) \cdot \frac{d}{d\theta}[\tan(\theta)]
+								  v'(n) \amp = -\sec^2(\sin(n)\cos(n))\cdot \frac{d}{dn}(\sin(n)\cos(n)) \amp \text{(Chain Rule)}
 							  </mrow>
 							  <mrow>
-							  \amp = \tan(\theta)\cdot \cos(\theta) +\sin(\theta) \cdot \sec^2(\theta)	
+							  \amp = -\sec^2(\sin(n)\cos(n))\cdot \left(\frac{d}{dn}(\sin(n))\cdot \cos(n) + \sin(n)\cdot \frac{d}{dn}(\cos(n))\right) \amp \text{(Product Rule)}
+							  </mrow>
+							  <mrow>
+							  \amp = -\sec^2(\sin(n)\cos(n))\cdot (\cos^2(n) - \sin^2(n)) \amp
 							  </mrow>
 						  </md>
 					  </p>
@@ -186,10 +183,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  h'(t) \amp = \frac{\cos(3t) \cdot \frac{d}{dt}[t^3] - t^3 \frac{d}{dt}[\cos(3t)]}{(\cos(3x))^2}
+								  p'(u) \amp = \frac{1}{2\sqrt{\frac{3e^u}{u}}} \cdot \frac{d}{du} \left(\frac{3e^u}{u}\right) + 2\cdot \frac{1}{2\sqrt{u}} \amp \text{(Chain Rule)}
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{\cos(3t) \cdot 3t^2 - t^3 \cdot (-\sin(3t)) \cdot 3}{\cos^2(3t)}
+								  \amp = \frac{1}{2\sqrt{\frac{3e^u}{u}}} \cdot \frac{3e^u \cdot u - 3e^u \cdot 1}{u^2} + \frac{1}{\sqrt{u}} \amp \text{(Quotient Rule)}
 							  </mrow>
 						  </md>
 					  </p>
@@ -211,10 +208,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  h'(x) \amp = 5\cos(4x+1)\cdot \frac{d}{dx}[4x+1]
+								  q'(w) \amp = 2e^{3\cos(w)} \cdot \frac{d}{dw} (3\cos(w)) \amp \text{(Chain Rule)}
 							  </mrow>
 							  <mrow>
-								  \amp = 5\cos(4x+1) \cdot 4
+								  \amp = 2e^{3\cos(w)} \cdot -3\sin(w)
 							  </mrow>
 						  </md>
 					  </p>

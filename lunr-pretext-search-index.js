@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Practice Gateway Exam 1",
-  "body": " Practice Gateway Exam 1   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions:                                                                                               Rewrite and use the chain rule.      "
+  "body": " Practice Gateway Exam 1   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions:                                                                                                     "
 },
 {
   "id": "section-140-GW-1-3-1",
@@ -79,7 +79,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.8",
   "title": "",
-  "body": "       Rewrite and use the chain rule.    "
+  "body": "           "
 },
 {
   "id": "section-140-GW-2",

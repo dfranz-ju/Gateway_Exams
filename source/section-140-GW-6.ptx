@@ -17,7 +17,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>f(x) = 3x^{4} - x^{3.6} + \sqrt{12}</m>
+						  <m>f(x) = \dfrac{x^3}{4} - 2 x^{5/2} - \dfrac{2}{x^2} + e^2</m>
 					  </p>
 			  	
 				  </statement>
@@ -27,10 +27,13 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  f'(x) \amp = 12x^3 - 3.6x^{2.6}
+								  f'(x) \amp = \frac{1}{4}\frac{d}{dx}(x^3) - 2\frac{d}{dx}(x^{5/2}) - 2\frac{d}{dx}(x^{-2}) + \frac{d}{dx}(e^2)
 							  </mrow>
 							  <mrow>
-							  	
+							  	\amp = \frac{1}{4}\cdot 3x^2 - 2\cdot \frac{5}{2}x^{3/2} - 2\cdot -2x^{-3} + 0
+							  </mrow>
+							  <mrow>
+							  	\amp = \frac{3}{4}\cdot x^2 - 5x^{3/2} +4x^{-3}
 							  </mrow>
 						  </md>
 					  </p>
@@ -42,7 +45,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>g(x) = \cos(2x) + 2 \sin(x)</m>
+						  <m>g(x) = \dfrac{3}{\sqrt{1+x^2}} + 8x</m>
 					  </p>
 			  	
 				  </statement>
@@ -52,10 +55,16 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  g'(x) \amp = -\sin(2x) \cdot \frac{d}{dx}[2x] + 2\cos(x)
+								  g'(x) \amp = 3\cdot\frac{d}{dx}((1+x^2)^{-1/2}) + 8\frac{d}{dx}(x)
 							  </mrow>
 							  <mrow>
-								  \amp = -\sin(2x) \cdot 2 + 2\cos(x)
+								  \amp = 3\cdot-\frac{1}{2} (1+x^2)^{-3/2}\cdot\frac{d}{dx}(1+x^2) + 8
+							  </mrow>
+							  <mrow>
+								  \amp = -\frac{3}{2} (1+x^2)^{-3/2}\cdot(2x) + 8
+							  </mrow>
+							  <mrow>
+								  \amp = -3x (1+x^2)^{-3/2} + 8
 							  </mrow>
 						  </md>
 					  </p>
@@ -67,7 +76,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>h(z) = 2e^z z^3</m>
+						  <m>h(\theta) = \ln(\sin(6\theta^2))</m>
 					  </p>
 			  	
 				  </statement>
@@ -77,10 +86,13 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  h'(z) \amp = 2e^z \cdot \frac{d}{dz}[z^3] + z^3 \cdot \frac{d}{dz}[2e^z]
+								  h'(\theta) \amp = \frac{1}{\sin(6\theta^2)} \cdot \frac{d}{d\theta}(\sin(6\theta^2))
 							  </mrow>
 							  <mrow>
-								  \amp = 2e^z \cdot 3z^2 + z^3\cdot 2e^z
+								  \amp = \frac{1}{\sin(6\theta^2)} \cdot \cos(6\theta^2)\cdot\frac{d}{d\theta}(6\theta^2)
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{\cos(6\theta^2)}{\sin(6\theta^2)} \cdot (12\theta)
 							  </mrow>
 						  </md>
 					  </p>
@@ -92,7 +104,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>y = \sqrt{x^3+e^2}</m>
+						  <m>p(t) = 2e^{-6t}\cos(8t) - 10t</m>
 					  </p>
 			  	
 				  </statement>
@@ -102,13 +114,13 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  \frac{dy}{dx} \amp = \frac{d}{dx}[(x^3+e^2)^{1/2}]
+								  p'(t) \amp = \frac{d}{dt}(2e^{-6t}) \cdot \cos(8t) + 2e^{-6t} \cdot \frac{d}{dt}(\cos(8t)) -10
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{1}{2} (x^3+e^2)^{-1/2}\cdot \frac{d}{dx}[x^3+e^2]
+								  \amp = 2e^{-6t}\cdot -6\cdot \cos(8t) + 2e^{-6t} \cdot -\sin(8t)\cdot 8 - 10
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{1}{2} (x^3+e^2)^{-1/2} \cdot 3x^2
+								  \amp = -12e^{-6t}\cos(8t) -16 e^{-6t}\sin(8t) - 10
 							  </mrow>
 						  </md>
 					  </p>
@@ -120,7 +132,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>s(t) = \ln(t^2+2.8)</m>
+						  <m>s(t) = \arctan(t^2 + \ln(t))</m>
 					  </p>
 			  	
 				  </statement>
@@ -129,10 +141,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  s'(t) \amp = \frac{1}{t^2+2.8}\cdot \frac{d}{dt}[t^2+2.8]
+								  s'(t) \amp = \frac{1}{1+(t^2+\ln(t))^2}\cdot\frac{d}{dt}(t^2 + \ln(t))
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{1}{t^2+2.8} \cdot 2t
+								  \amp =  \frac{1}{1+(t^2+\ln(t))^2}\cdot\left(2t + \frac{1}{t}\right)
 							  </mrow>
 						  </md>
 					  </p>
@@ -144,33 +156,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>m(t) = \dfrac{t-2}{e^t}</m>
-					  </p>
-			  	
-				  </statement>
-
-			  
-				  <solution>
-					  <p>
-						  <md>
-							  <mrow>
-								  m'(t) \amp = \frac{e^t \cdot \frac{d}{dt}[t-2] - (t-2)\cdot \frac{d}{dt}[e^t]}{(e^t)^2}
-							  </mrow>
-							  <mrow>
-								  \amp = \frac{e^t - (t-2)\cdot e^t}{e^{2t}}
-							  </mrow>
-						  </md>
-					  </p>
-				  
-				  </solution>
-			  </exercise>
-			  
-			  
-			  
-			  <exercise>
-				  <statement>
-					  <p>
-						  <m>r(x) = e^{2.7x} + \dfrac{1}{x}</m>
+						  <m>q(y) = \dfrac{4\sin(y) - 3e^y}{y^2+1}</m>
 					  </p>
 			  	
 				  </statement>
@@ -180,13 +166,39 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  r'(x) \amp = \frac{d}{dx}[e^{2.7x} + x^{-1}]
+								  q'(y) \amp = \frac{\frac{d}{dy}(4\sin(y)-3e^y) \cdot (y^2+1) - (4\sin(y)-3e^y)\cdot\frac{d}{dy}(y^2+1)}{(y^2+1)^2}
 							  </mrow>
 							  <mrow>
-								  \amp = e^{2.7x}\cdot \frac{d}{dx}[2.7x]-x^{-2}
+								  \amp = \frac{(4\cos(y)-3e^y) \cdot (y^2+1) - (4\sin(y)-3e^y)\cdot (2y)}{(y^2+1)^2}
+							  </mrow>
+						  </md>
+					  </p>
+				  
+				  </solution>
+			  </exercise>
+			  
+			  
+			  
+			  <exercise>
+				  <statement>
+					  <p>
+						  <m>r(x) = \sqrt{1+x^3\tan(x)} + \sqrt{e}</m>
+					  </p>
+			  	
+				  </statement>
+
+			  
+				  <solution>
+					  <p>
+						  <md>
+							  <mrow>
+								  r'(x) \amp = \frac{1}{2\sqrt{1+x^3\tan(x)}}\cdot\frac{d}{dx}(1+x^3\tan(x)) + 0
 							  </mrow>
 							  <mrow>
-								  \amp = e^{2.7x}\cdot 2.7 -x^{-2}
+								  \amp = \frac{1}{2\sqrt{1+x^3\tan(x)}}\cdot \left(\frac{d}{dx}(x^3)\cdot \tan(x) + x^3\cdot\frac{d}{dx}(\tan(x))\right)
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2\sqrt{1+x^3\tan(x)}}\cdot (3x^2\tan(x) + x^3\sec^2(x))
 							  </mrow>
 						  </md>
 					  </p>
@@ -198,7 +210,7 @@
 			  <exercise>
 				  <statement>
 					  <p>
-						  <m>y(x) = 2(6^x) - e^{\ln(x)}</m>
+						  <m>f(x) = \dfrac{e^{5x}}{2x-\cos(3x)}</m>
 					  </p>
 			  	
 				  </statement>
@@ -208,10 +220,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  y'(x) \amp = \frac{d}{dx}[2(6^x) - x]
+								  f'(x) \amp = \frac{\frac{d}{dx}(e^{5x})\cdot(2x-\cos(3x)) - e^{5x}\cdot\frac{d}{dx}(2x-\cos(3x))}{(2x-\cos(3x))^2}
 							  </mrow>
 							  <mrow>
-								  \amp = 2\cdot \ln(6) \cdot 6^x - 1
+								  \amp = \frac{e^{5x}\cdot 5\cdot(2x-\cos(3x)) - e^{5x}\cdot(2+\sin(3x)\cdot 3)}{(2x-\cos(3x))^2}
 							  </mrow>
 						  </md>
 					  </p>

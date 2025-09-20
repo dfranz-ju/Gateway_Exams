@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Practice Gateway Exam 1",
-  "body": " Practice Gateway Exam 1   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions:                                                                                                     "
+  "body": " Practice Gateway Exam 1   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions. You only need to show as much work as is necessary for you personally to obtain the answer. You do not need to simplify your answers.  (Note: The solutions below are fairly detailed so that you can understand what the steps are while using this for studying. These solutions also usually show minor simplifying and a final simplifying step.)                                                                                                     "
 },
 {
   "id": "section-140-GW-1-3-1",
@@ -88,7 +88,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Practice Gateway Exam 2",
-  "body": " Practice Gateway Exam 2   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions:                                                                                                     "
+  "body": " Practice Gateway Exam 2   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions. You only need to show as much work as is necessary for you personally to obtain the answer. You do not need to simplify your answers.  (Note: The solutions below are fairly detailed so that you can understand what the steps are while using this for studying. These solutions also usually show minor simplifying and a final simplifying step.)                                                                                                     "
 },
 {
   "id": "section-140-GW-2-3-1",
@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Practice Gateway Exam 3",
-  "body": " Practice Gateway Exam 3   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions:                                                                                                     "
+  "body": " Practice Gateway Exam 3   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions. You only need to show as much work as is necessary for you personally to obtain the answer. You do not need to simplify your answers.  (Note: The solutions below are fairly detailed so that you can understand what the steps are while using this for studying. These solutions also usually show minor simplifying and a final simplifying step.)                                                                                                     "
 },
 {
   "id": "section-140-GW-3-3-1",
@@ -250,7 +250,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Practice Gateway Exam 4",
-  "body": " Practice Gateway Exam 4   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions:                                                                                                     "
+  "body": " Practice Gateway Exam 4   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions. You only need to show as much work as is necessary for you personally to obtain the answer. You do not need to simplify your answers.  (Note: The solutions below are fairly detailed so that you can understand what the steps are while using this for studying. These solutions also usually show minor simplifying and a final simplifying step.)                                                                                                     "
 },
 {
   "id": "section-140-GW-4-3-1",
@@ -331,7 +331,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.5",
   "title": "Practice Gateway Exam 5",
-  "body": " Practice Gateway Exam 5   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions:                                                                                                     "
+  "body": " Practice Gateway Exam 5   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions. You only need to show as much work as is necessary for you personally to obtain the answer. You do not need to simplify your answers.  (Note: The solutions below are fairly detailed so that you can understand what the steps are while using this for studying. These solutions also usually show minor simplifying and a final simplifying step.)                                                                                                     "
 },
 {
   "id": "section-140-GW-5-3-1",
@@ -412,7 +412,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Practice Gateway Exam 6",
-  "body": " Practice Gateway Exam 6   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions:                                                                                                     "
+  "body": " Practice Gateway Exam 6   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions. You only need to show as much work as is necessary for you personally to obtain the answer. You do not need to simplify your answers.  (Note: The solutions below are fairly detailed so that you can understand what the steps are while using this for studying. These solutions also usually show minor simplifying and a final simplifying step.)                                                                                                     "
 },
 {
   "id": "section-140-GW-6-3-1",
@@ -493,7 +493,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.7",
   "title": "Practice Gateway Exam 7",
-  "body": " Practice Gateway Exam 7   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions:                                                                                                     "
+  "body": " Practice Gateway Exam 7   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions. You only need to show as much work as is necessary for you personally to obtain the answer. You do not need to simplify your answers.  (Note: The solutions below are fairly detailed so that you can understand what the steps are while using this for studying. These solutions also usually show minor simplifying and a final simplifying step.)                                                                                                     "
 },
 {
   "id": "section-140-GW-7-3-1",
@@ -574,7 +574,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.8",
   "title": "Practice Gateway Exam 8",
-  "body": " Practice Gateway Exam 8   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions:                                                                                                     "
+  "body": " Practice Gateway Exam 8   The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.  Find the derivative of each of the following functions. You only need to show as much work as is necessary for you personally to obtain the answer. You do not need to simplify your answers.  (Note: The solutions below are fairly detailed so that you can understand what the steps are while using this for studying. These solutions also usually show minor simplifying and a final simplifying step.)                                                                                                     "
 },
 {
   "id": "section-140-GW-8-3-1",

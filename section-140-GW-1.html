@@ -218,7 +218,9 @@ eBookConfig.enable_chatcodes =  false;
 </h2>
 <section class="paragraphs" id="section-140-GW-1-2"><div class="para" id="section-140-GW-1-2-1">The use of a calculator or any computer algebra system is not permitted on this test. No partial credit is available. A score of at least 7 correct is required to pass this gateway.<div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="section-140-GW-1-2-2">Find the derivative of each of the following functions:<div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="section-140-GW-1-2-2">Find the derivative of each of the following functions. You only need to show as much work as is necessary for you personally to obtain the answer. You do not need to simplify your answers.<div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="section-140-GW-1-2-3">(Note: The solutions below are fairly detailed so that you can understand what the steps are while using this for studying. These solutions also usually show minor simplifying and a final simplifying step.)<div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-1-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Paragraphs"><a href="#section-140-GW-1-2" title="Copy heading and permalink for Paragraphs" aria-label="Copy heading and permalink for Paragraphs">🔗</a></div></section><section class="exercises" id="section-140-GW-1-3"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
@@ -265,7 +267,8 @@ g'(x) \amp = \frac{(x+1)\cdot\frac{d}{dx}\left(3x-\cos(x)\right) - \frac{d}{dx}\
 <div class="displaymath process-math" id="section-140-GW-1-3-3-2-1-1">
 \begin{align*}
 r'(t) \amp = \frac{1}{\sin(t^4)+2t} \cdot \frac{d}{dt}\left(\sin(t^4)+2t\right)\\
-\amp = \frac{1}{\sin(t^4)+2t} \cdot (\cos(t^4) \cdot 4t^3 + 2t)
+\amp = \frac{1}{\sin(t^4)+2t} \cdot (\cos(t^4) \cdot 4t^3 + 2t)\\
+\amp = \frac{4t^3\cos(t^4) + 2t}{\sin(t^4)+2t}
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-1-3-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -281,6 +284,7 @@ r'(t) \amp = \frac{1}{\sin(t^4)+2t} \cdot \frac{d}{dt}\left(\sin(t^4)+2t\right)\
 <div class="displaymath process-math" id="section-140-GW-1-3-4-2-1-1">
 \begin{align*}
 h'(z) \amp = \frac{1}{1+(3z^2+1)^2}\cdot \frac{d}{dz}\left(3z^2+1\right) - 5\frac{d}{dz}(z^3)\\
+\amp = \frac{1}{1+(3z^2+1)^2}\cdot 6z - 5\cdot 3z^2\\
 \amp = \frac{6z}{1+(3z^2+1)^2} - 15z^2
 \end{align*}
 </div>
@@ -296,8 +300,8 @@ h'(z) \amp = \frac{1}{1+(3z^2+1)^2}\cdot \frac{d}{dz}\left(3z^2+1\right) - 5\fra
 <div class="para logical" id="section-140-GW-1-3-5-2-1">
 <div class="displaymath process-math" id="section-140-GW-1-3-5-2-1-1">
 \begin{align*}
-f'(t) \amp = \frac{e^{\sin(t)} \cdot \frac{d}{dt} \left(\ln(t)\right) - \frac{d}{dt} \left(e^{\sin(t)}\right) \cdot \ln(t)}{(\ln(t))^2}\\
-\amp = \frac{e^{\sin(t)} \cdot \frac{1}{t} - e^{\sin(t)} \cos(t) \ln(t)}{(\ln(t))^2}
+f'(t) \amp = \frac{\frac{d}{dt} \left(e^{\sin(t)}\right) \cdot \ln(t) - e^{\sin(t)} \cdot \frac{d}{dt} \left(\ln(t)\right) }{(\ln(t))^2}\\
+\amp = \frac{e^{\sin(t)} \cos(t) \ln(t) - e^{\sin(t)} \cdot \frac{1}{t}}{(\ln(t))^2}
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-1-3-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -329,7 +333,8 @@ g'(x) \amp = 12(x^4-4x)^{11} \cdot \frac{d}{dx}\left(x^4-4x\right) + 0\\
 <div class="displaymath process-math" id="section-140-GW-1-3-7-2-1-1">
 \begin{align*}
 h'(t) \amp = e^t \cdot \frac{d}{dt}\left(\cos(2t)\right) + \cos(2t) \cdot \frac{d}{dt}\left(e^t\right)\\
-\amp = (e^t)(-\sin(2t)\cdot 2) + \cos(2t)e^{t}
+\amp = e^t\cdot (-\sin(2t)\cdot 2) + \cos(2t)e^{t}\\
+\amp = -2e^t\sin(2t) + e^t\cos(2t)
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#section-140-GW-1-3-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>

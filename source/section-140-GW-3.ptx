@@ -56,7 +56,7 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  g'(y) \amp = \frac{\frac{d}{dy} (4y^3 -3y^2) \cdot (2y+1) - (4y^3-3y^2) \cdot \frac{d}{dy}(2y+1)}{(2y+1)^2} \, \text{(Quotient Rule)}
+								  g'(y) \amp = \frac{\frac{d}{dy} (4y^3 -3y^2) \cdot (2y+1) - (4y^3-3y^2) \cdot \frac{d}{dy}(2y+1)}{(2y+1)^2} 
 							  </mrow>
 							  <mrow>
 								  \amp = \frac{ (12y^2-6y) \cdot (2y+1) - (4y^3-3y^2) \cdot 2}{(2y+1)^2}
@@ -81,10 +81,13 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  r'(z) \amp = \frac{1}{\cos(z^3)} \cdot \frac{d}{dz}(\cos(z^3)) + \cos(z) \amp \text{(Chain Rule)}
+								  r'(z) \amp = \frac{1}{\cos(z^3)} \cdot \frac{d}{dz}(\cos(z^3)) + \cos(z) 
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{1}{\cos(z^3)} \cdot -\sin(z^3) \cdot 3z^2 + \cos(z) \amp
+								  \amp = \frac{1}{\cos(z^3)} \cdot -\sin(z^3) \cdot 3z^2 + \cos(z) 
+							  </mrow>
+							  <mrow>
+								  \amp = -\frac{3z^2\sin(z^3)}{\cos(z^3)} + \cos(z) 
 							  </mrow>
 							  
 						  </md>
@@ -107,10 +110,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  h'(t) \amp = \frac{d}{dt}(3e^t) \cdot \arctan(2t) + 3e^t \cdot \frac{d}{dt}(\arctan(2t)) - 0 \amp \text{(Product Rule)}
+								  h'(t) \amp = \frac{d}{dt}(3e^t) \cdot \arctan(2t) + 3e^t \cdot \frac{d}{dt}(\arctan(2t)) - 0 
 							  </mrow>
 							  <mrow>
-								  \amp = 3e^t \cdot \arctan(2t) + 3e^t \cdot \frac{1}{1+(2t)^2}\cdot 2 \amp \text{(Chain Rule)}
+								  \amp = 3e^t \cdot \arctan(2t) + 3e^t \cdot \frac{1}{1+(2t)^2}\cdot 2
 							
 							  </mrow>
 						  </md>
@@ -132,10 +135,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  m'(\theta) \amp = 3\left(2\cos(\theta) + \frac{2}{\theta}\right)^2 \cdot \frac{d}{d\theta}\left(2\cos(\theta) + 2\theta^{-1}\right) \amp \text{(Chain Rule)}
+								  m'(\theta) \amp = 3\left(2\cos(\theta) + \frac{2}{\theta}\right)^2 \cdot \frac{d}{d\theta}\left(2\cos(\theta) + 2\theta^{-1}\right) 
 							  </mrow>
 							  <mrow>
-								  \amp = 3\left(2\cos(\theta) + \frac{2}{\theta}\right)^2 \cdot (-2\sin(\theta) - 2\theta^{-2}) \amp 
+								  \amp = 3\left(2\cos(\theta) + \frac{2}{\theta}\right)^2 \cdot (-2\sin(\theta) - 2\theta^{-2})
 							  </mrow>
 						  </md>
 					  </p>
@@ -157,10 +160,13 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  \amp = \frac{1}{2\sqrt{n\ln(n)}}  \cdot \frac{d}{dn} (n\ln(n)) \amp \text{(Chain Rule)}
+								  \amp = \frac{1}{2\sqrt{n\ln(n)}}  \cdot \frac{d}{dn} (n\ln(n))
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{1}{2}(n\ln(n))^{-1/2} \cdot \left(\ln(n) + n\cdot \frac{1}{n}\right) \amp \text{(Product Rule)}
+								  \amp = \frac{1}{2\sqrt{n\ln(n)}} \cdot \left(\ln(n) + n\cdot \frac{1}{n}\right) 
+							  </mrow>
+							   <mrow>
+								  \amp = \frac{1}{2\sqrt{n\ln(n)}} \cdot \left(\ln(n) +1\right)  
 							  </mrow>
 						  </md>
 					  </p>
@@ -183,9 +189,11 @@
 					  <p>
 						  <md>
 							  <mrow>
-								 p'(u) \amp = \cos(2-u)\cdot (-1) - 0 \amp \text{(Chain Rule)}
+								 p'(u) \amp = \cos(2-u)\cdot (-1) - 0
 							  </mrow>
-							 
+							 <mrow>
+								 p'(u) \amp = -\cos(2-u)
+							  </mrow>
 						  </md>
 					  </p>
 				  
@@ -206,10 +214,13 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  q'(w) \amp = \frac{\frac{d}{dw}(\tan(2w)) \cdot (2w^6) - \tan(2w) \cdot \frac{d}{dw} (2w^6)}{(2w^6)^2} \amp \text{(Quotient Rule)}
+								  q'(w) \amp = \frac{\frac{d}{dw}(\tan(2w)) \cdot (2w^6) - \tan(2w) \cdot \frac{d}{dw} (2w^6)}{(2w^6)^2} 
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{\sec^2(2w)\cdot 2 \cdot (2w^6) - \tan(2w) \cdot 12w^5}{4w^{12}} \amp \text{(Chain Rule)}
+								  \amp = \frac{\sec^2(2w)\cdot 2 \cdot (2w^6) - \tan(2w) \cdot 12w^5}{4w^{12}} 
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{4w^6\sec^2(2w) - 12w^5\tan(2w)}{4w^{12}} 
 							  </mrow>
 						  </md>
 					  </p>

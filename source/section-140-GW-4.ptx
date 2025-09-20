@@ -55,7 +55,7 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  g'(y) \amp = \frac{1}{2\sqrt{y^2+2y+3}} \cdot \frac{d}{dy}(y^2+2y+3) \amp \text{(Chain Rule)}
+								  g'(y) \amp = \frac{1}{2\sqrt{y^2+2y+3}} \cdot \frac{d}{dy}(y^2+2y+3) 
 							  </mrow>
 							  <mrow>
 								  \amp = \frac{1}{2\sqrt{y^2+2y+3}} \cdot (2y+2) \amp
@@ -80,10 +80,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  r'(z) \amp = \frac{d}{dz}(e^z) \cdot \tan(2z) + e^z \cdot \frac{d}{dz}(\tan(2z)) - 0 \amp \text{(Product Rule)}
+								  r'(z) \amp = \frac{d}{dz}(e^z) \cdot \tan(2z) + e^z \cdot \frac{d}{dz}(\tan(2z)) - 0 
 							  </mrow>
 							  <mrow>
-								  \amp = e^z\tan(2z) + e^z \sec^2(2z) \cdot 2 \amp \text{(Chain Rule)}
+								  \amp = e^z\tan(2z) + e^z \sec^2(2z) \cdot 2 
 							  </mrow>
 						  </md>
 					  </p>
@@ -105,7 +105,7 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  h'(t) \amp = \frac{\frac{d}{dt}(2+\cos(t)) \cdot \arctan(t+1) - (2+\cos(t)) \cdot \frac{d}{dt}(\arctan(t+1))}{(t+1)^2} \, \text{(Quotient Rule)}
+								  h'(t) \amp = \frac{\frac{d}{dt}(2+\cos(t)) \cdot \arctan(t+1) - (2+\cos(t)) \cdot \frac{d}{dt}(\arctan(t+1))}{(t+1)^2} 
 							  </mrow>
 							  <mrow>
 								  \amp = \frac{-\sin(t)\cdot \arctan(t+1) - (2+\cos(t)) \cdot \frac{1}{1+(t+1)^2}}{(t+1)^2}
@@ -129,7 +129,7 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  m'(\theta) \amp = 5(3\pi+4\sin(\theta))^4 \cdot \frac{d}{d\theta} (3\pi + 4\sin(\theta)) \amp \text{(Chain Rule)}
+								  m'(\theta) \amp = 5(3\pi+4\sin(\theta))^4 \cdot \frac{d}{d\theta} (3\pi + 4\sin(\theta)) 
 							  </mrow>
 							  <mrow>
 								  \amp = 5(3\pi+4\sin(\theta))^4 \cdot 4\cos(\theta)
@@ -154,13 +154,13 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  v'(n) \amp = -\sec^2(\sin(n)\cos(n))\cdot \frac{d}{dn}(\sin(n)\cos(n)) \amp \text{(Chain Rule)}
+								  v'(n) \amp = -\sec^2(\sin(n)\cos(n))\cdot \frac{d}{dn}(\sin(n)\cos(n))
 							  </mrow>
 							  <mrow>
-							  \amp = -\sec^2(\sin(n)\cos(n))\cdot \left(\frac{d}{dn}(\sin(n))\cdot \cos(n) + \sin(n)\cdot \frac{d}{dn}(\cos(n))\right) \amp \text{(Product Rule)}
+							  \amp = -\sec^2(\sin(n)\cos(n))\cdot \left(\frac{d}{dn}(\sin(n))\cdot \cos(n) + \sin(n)\cdot \frac{d}{dn}(\cos(n))\right) 
 							  </mrow>
 							  <mrow>
-							  \amp = -\sec^2(\sin(n)\cos(n))\cdot (\cos^2(n) - \sin^2(n)) \amp
+							  \amp = -\sec^2(\sin(n)\cos(n))\cdot (\cos^2(n) - \sin^2(n))
 							  </mrow>
 						  </md>
 					  </p>
@@ -183,10 +183,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  p'(u) \amp = \frac{1}{2\sqrt{\frac{3e^u}{u}}} \cdot \frac{d}{du} \left(\frac{3e^u}{u}\right) + 2\cdot \frac{1}{2\sqrt{u}} \amp \text{(Chain Rule)}
+								  p'(u) \amp = \frac{1}{2\sqrt{\frac{3e^u}{u}}} \cdot \frac{d}{du} \left(\frac{3e^u}{u}\right) + 2\cdot \frac{1}{2\sqrt{u}} 
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{1}{2\sqrt{\frac{3e^u}{u}}} \cdot \frac{3e^u \cdot u - 3e^u \cdot 1}{u^2} + \frac{1}{\sqrt{u}} \amp \text{(Quotient Rule)}
+								  \amp = \frac{1}{2\sqrt{\frac{3e^u}{u}}} \cdot \frac{3e^u \cdot u - 3e^u \cdot 1}{u^2} + \frac{1}{\sqrt{u}} 
 							  </mrow>
 						  </md>
 					  </p>
@@ -208,10 +208,13 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  q'(w) \amp = 2e^{3\cos(w)} \cdot \frac{d}{dw} (3\cos(w)) \amp \text{(Chain Rule)}
+								  q'(w) \amp = 2e^{3\cos(w)} \cdot \frac{d}{dw} (3\cos(w)) 
 							  </mrow>
 							  <mrow>
 								  \amp = 2e^{3\cos(w)} \cdot -3\sin(w)
+							  </mrow>
+							  <mrow>
+								  \amp = -6e^{3\cos(w)}\sin(w)
 							  </mrow>
 						  </md>
 					  </p>

@@ -83,10 +83,10 @@
 								  r'(t) \amp = \frac{1}{\sin(t^4)+2t} \cdot \frac{d}{dt}\left(\sin(t^4)+2t\right)
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{1}{\sin(t^4)+2t} \cdot (\cos(t^4) \cdot 4t^3 + 2t)
+								  \amp = \frac{1}{\sin(t^4)+2t} \cdot (\cos(t^4) \cdot 4t^3 + 2)
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{4t^3\cos(t^4) + 2t}{\sin(t^4)+2t}
+								  \amp = \frac{4t^3\cos(t^4) + 2t}{\sin(t^4)+2}
 							  </mrow>
 						  </md>
 					  </p>

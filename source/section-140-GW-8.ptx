@@ -223,10 +223,10 @@
 								  q'(w) \amp = \frac{1}{2\sqrt{\sin(\sqrt{w})}} \cdot \frac{d}{dw}(\sin(\sqrt{w}))
 							  </mrow>
 							  <mrow>
-								  q'(w) \amp = \frac{1}{2\sqrt{\sin(\sqrt{w})}} \cdot \cos(\sqrt{w})\cdot \frac{d}{dw}(\sqrt{w})
+								  \amp = \frac{1}{2\sqrt{\sin(\sqrt{w})}} \cdot \cos(\sqrt{w})\cdot \frac{d}{dw}(\sqrt{w})
 							  </mrow>
 							  <mrow>
-								  q'(w) \amp = \frac{1}{2\sqrt{\sin(\sqrt{w})}} \cdot \cos(\sqrt{w})\cdot \frac{1}{2\sqrt{w}}
+								   \amp = \frac{1}{2\sqrt{\sin(\sqrt{w})}} \cdot \cos(\sqrt{w})\cdot \frac{1}{2\sqrt{w}}
 							  </mrow>
 						  </md>
 					  </p>

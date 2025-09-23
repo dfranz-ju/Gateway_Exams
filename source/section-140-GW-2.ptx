@@ -52,7 +52,7 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  g'(x) \amp = \frac{d}{dx}(3x+\sin(x))\cdot e^{2x} + (3x+\sin(x))\cdot\frac{d}{dx}(e^2x)
+								  g'(x) \amp = \frac{d}{dx}(3x+\sin(x))\cdot e^{2x} + (3x+\sin(x))\cdot\frac{d}{dx}(e^{2x})
 							  </mrow>
 							  <mrow>
 								  \amp = (3 + \cos(x))\cdot e^{2x} + (3x+\sin(x)) \cdot e^{2x} \cdot 2

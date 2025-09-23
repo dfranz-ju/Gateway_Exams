@@ -160,7 +160,7 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  \amp = \frac{1}{2\sqrt{n\ln(n)}}  \cdot \frac{d}{dn} (n\ln(n))
+								v'(n)  \amp = \frac{1}{2\sqrt{n\ln(n)}}  \cdot \frac{d}{dn} (n\ln(n))
 							  </mrow>
 							  <mrow>
 								  \amp = \frac{1}{2\sqrt{n\ln(n)}} \cdot \left(\ln(n) + n\cdot \frac{1}{n}\right) 
@@ -192,7 +192,7 @@
 								 p'(u) \amp = \cos(2-u)\cdot (-1) - 0
 							  </mrow>
 							 <mrow>
-								 p'(u) \amp = -\cos(2-u)
+								  \amp = -\cos(2-u)
 							  </mrow>
 						  </md>
 					  </p>

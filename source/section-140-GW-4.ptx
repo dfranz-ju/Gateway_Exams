@@ -55,10 +55,13 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  g'(y) \amp = \frac{1}{2\sqrt{y^2+2y+3}} \cdot \frac{d}{dy}(y^2+2y+3) 
+								  g'(y) \amp = \frac{1}{2\sqrt{\sin(y^2+2y+3)}} \cdot \frac{d}{dy}(\sin(y^2+2y+3))
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{1}{2\sqrt{y^2+2y+3}} \cdot (2y+2) \amp
+								  \amp = \frac{1}{2\sqrt{\sin(y^2+2y+3)}} \cdot \cos(y^2+2y+3) \cdot \frac{d}{dy}(y^2+2y+3)
+							  </mrow>
+							  <mrow>
+								  \amp = \frac{1}{2\sqrt{y^2+2y+3}} \cdot \cos(y^2+2y+3) \cdot (2y+2) \amp
 							  </mrow>
 						  </md>
 					  </p>
@@ -105,10 +108,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  h'(t) \amp = \frac{\frac{d}{dt}(2+\cos(t)) \cdot \arctan(t+1) - (2+\cos(t)) \cdot \frac{d}{dt}(\arctan(t+1))}{(t+1)^2} 
+								  h'(t) \amp = \frac{\frac{d}{dt}(2+\cos(t)) \cdot \arctan(t+1) - (2+\cos(t)) \cdot \frac{d}{dt}(\arctan(t+1))}{(\arctan(t+1))^2} 
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{-\sin(t)\cdot \arctan(t+1) - (2+\cos(t)) \cdot \frac{1}{1+(t+1)^2}}{(t+1)^2}
+								  \amp = \frac{-\sin(t)\cdot \arctan(t+1) - (2+\cos(t)) \cdot \frac{1}{1+(t+1)^2}}{(\arctan(t+1))^2}
 							  </mrow>
 						  </md>
 					  </p>

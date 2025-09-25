@@ -58,10 +58,10 @@
 								  f'(t) \amp = 3\cos(4t+\pi) \cdot \frac{d}{dt}(4t+\pi) - 4\sin(\pi-5t^2) \cdot \frac{d}{dt} (\pi-5t^2)
 							  </mrow>
 							  <mrow>
-								  \amp = 3\cos(4t+\pi)\cdot 4 - 4\sin(\pi-5t^2) \cdot -10t^2
+								  \amp = 3\cos(4t+\pi)\cdot 4 - 4\sin(\pi-5t^2) \cdot -10t
 							  </mrow>
 							  <mrow>
-								  \amp = 12\cos(4t+\pi) + 40t^2\sin(\pi-5t^2)
+								  \amp = 12\cos(4t+\pi) + 40t\sin(\pi-5t^2)
 							  </mrow>
 						  </md>
 					  </p>

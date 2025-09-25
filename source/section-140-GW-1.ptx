@@ -55,10 +55,10 @@
 					  <p>
 						  <md>
 							  <mrow>
-								  g'(x) \amp = \frac{(x+1)\cdot\frac{d}{dx}\left(3x-\cos(x)\right) - \frac{d}{dx}\left(x+1\right) \cdot (3x-\cos(x)) }{(x+1)^2}
+								  g'(x) \amp = \frac{\frac{d}{dx}\left(3x-\cos(x)\right) \cdot (x+1) -  (3x-\cos(x)) \cdot \frac{d}{dx}\left(x+1\right)}{(x+1)^2}
 							  </mrow>
 							  <mrow>
-								  \amp = \frac{(x+1)\cdot(3+\sin(x)) - (3x-\cos(x))}{(x+1)^2}
+								  \amp = \frac{(3+\sin(x)) \cdot (x+1) - (3x-\cos(x))}{(x+1)^2}
 							  </mrow>
 						  </md>
 					  </p>
